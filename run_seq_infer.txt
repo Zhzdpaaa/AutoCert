@@ -1,0 +1,2 @@
+/mnt/tidal-alsh01/dataset/OCRData/page_label_project/AutoCert/run_inference.sh -v red_2b_test -p Qwen3-VL-2B-Instruct -m /mnt/tidal-alsh01/dataset/OCRData/FireRed-OCR-2B -i /mnt/tidal-alsh01/dataset/OCRData/page_label_project/AutoCert/test_images
+/mnt/tidal-alsh01/dataset/OCRData/train.sh

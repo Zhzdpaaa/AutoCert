@@ -1,0 +1,5 @@
+2026届本科生团队竞赛加分申请书
+
+
+
+<table><tr><td colspan="2">竞赛名称</td><td colspan="2">2024年CIMC中国智能制造挑战赛全国总决赛</td></tr><tr><td colspan="2">团体名称（与证书一致，全称）</td><td colspan="2">潮水啊我已归来队</td></tr><tr><td>竞赛级别与类别（如国家级A类）</td><td>国家级B类</td><td>获奖等级</td><td>二等奖</td></tr><tr><td>年度</td><td>2024</td><td>队长</td><td>陈亚龙</td></tr><tr><td>证书顺序</td><td colspan="3">无</td></tr><tr><td>团队加分顺序（除去指导老师）</td><td colspan="3">（如有团队证书，需按照证书填写，如没有团队证书，部分竞赛需按照指导老师顺序填写，参照加分规则备注，如以上都没有则团队成员自行分配）</td></tr><tr><td rowspan="3">参赛队员（按顺序）</td><td>陈亚龙</td><td>翁锦瑞</td><td>杨小申</td></tr><tr><td></td><td></td><td></td></tr><tr><td>加分</td><td>1.1</td><td>1.1</td></tr><tr><td>参赛队员（按顺序）</td><td></td><td></td><td></td></tr><tr><td>加分</td><td></td><td></td><td></td></tr><tr><td>参赛队员（按顺序）</td><td></td><td></td><td></td></tr><tr><td>加分</td><td></td><td></td><td></td></tr><tr><td colspan="4">指导老师签字（需指导老师决定加分顺位则需签字）：陈凤琴</td></tr><tr><td colspan="4">加分同学签字（团队每位需要加分成员需签字）：翁锦瑞 杨小申</td></tr></table>

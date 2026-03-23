@@ -1,0 +1,531 @@
+============================================================
+  Stage-2 Extract Log
+============================================================
+  Start Time : 2026-03-16 10:21:25
+  VERSION    : v117_6
+  TIMESTAMP  : 20260316_102015
+============================================================
+
+  EXTRACT_MODEL  : /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct
+  INPUT_DIR      : /mnt/tidal-alsh01/dataset/OCRData/page_label_project/AutoCert/results/firered_ocr/v117_6
+  OUTPUT_DIR     : /mnt/tidal-alsh01/dataset/OCRData/page_label_project/AutoCert/results/qwen_extract/v117_6
+
+检测到 8 张 GPU，共 16 个 .md 文件
+INFO 03-16 10:21:37 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:38 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:38 [__init__.py:216] Automatically detected platform cuda.
+[Worker 3] GPU=3  files=2
+INFO 03-16 10:21:38 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:38 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:38 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:38 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:38 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:38 [utils.py:233] non-default args: {'dtype': 'bfloat16', 'seed': 42, 'max_model_len': 32768, 'max_num_seqs': 8, 'model': '/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct'}
+INFO 03-16 10:21:38 [model.py:547] Resolved architecture: Qwen3VLForConditionalGeneration
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO 03-16 10:21:38 [model.py:1510] Using max model len 32768
+INFO 03-16 10:21:38 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=16384.
+[Worker 1] GPU=1  files=2
+[Worker 0] GPU=0  files=2
+[Worker 6] GPU=6  files=2
+[Worker 2] GPU=2  files=2
+[Worker 7] GPU=7  files=2
+[Worker 5] GPU=5  files=2
+[Worker 4] GPU=4  files=2
+INFO 03-16 10:21:39 [utils.py:233] non-default args: {'dtype': 'bfloat16', 'seed': 42, 'max_model_len': 32768, 'max_num_seqs': 8, 'model': '/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct'}
+INFO 03-16 10:21:39 [model.py:547] Resolved architecture: Qwen3VLForConditionalGeneration
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO 03-16 10:21:39 [model.py:1510] Using max model len 32768
+INFO 03-16 10:21:39 [utils.py:233] non-default args: {'dtype': 'bfloat16', 'seed': 42, 'max_model_len': 32768, 'max_num_seqs': 8, 'model': '/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct'}
+INFO 03-16 10:21:39 [model.py:547] Resolved architecture: Qwen3VLForConditionalGeneration
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO 03-16 10:21:39 [model.py:1510] Using max model len 32768
+INFO 03-16 10:21:39 [utils.py:233] non-default args: {'dtype': 'bfloat16', 'seed': 42, 'max_model_len': 32768, 'max_num_seqs': 8, 'model': '/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct'}
+INFO 03-16 10:21:39 [utils.py:233] non-default args: {'dtype': 'bfloat16', 'seed': 42, 'max_model_len': 32768, 'max_num_seqs': 8, 'model': '/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct'}
+INFO 03-16 10:21:39 [model.py:547] Resolved architecture: Qwen3VLForConditionalGeneration
+INFO 03-16 10:21:39 [utils.py:233] non-default args: {'dtype': 'bfloat16', 'seed': 42, 'max_model_len': 32768, 'max_num_seqs': 8, 'model': '/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct'}
+INFO 03-16 10:21:39 [model.py:547] Resolved architecture: Qwen3VLForConditionalGeneration
+INFO 03-16 10:21:39 [utils.py:233] non-default args: {'dtype': 'bfloat16', 'seed': 42, 'max_model_len': 32768, 'max_num_seqs': 8, 'model': '/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct'}
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO 03-16 10:21:39 [model.py:1510] Using max model len 32768
+INFO 03-16 10:21:39 [model.py:1510] Using max model len 32768
+INFO 03-16 10:21:39 [utils.py:233] non-default args: {'dtype': 'bfloat16', 'seed': 42, 'max_model_len': 32768, 'max_num_seqs': 8, 'model': '/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct'}
+INFO 03-16 10:21:39 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=16384.
+INFO 03-16 10:21:39 [model.py:547] Resolved architecture: Qwen3VLForConditionalGeneration
+INFO 03-16 10:21:39 [model.py:547] Resolved architecture: Qwen3VLForConditionalGeneration
+INFO 03-16 10:21:39 [model.py:547] Resolved architecture: Qwen3VLForConditionalGeneration
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO 03-16 10:21:39 [model.py:1510] Using max model len 32768
+INFO 03-16 10:21:39 [model.py:1510] Using max model len 32768
+INFO 03-16 10:21:39 [model.py:1510] Using max model len 32768
+INFO 03-16 10:21:39 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=16384.
+INFO 03-16 10:21:39 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=16384.
+INFO 03-16 10:21:39 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=16384.
+INFO 03-16 10:21:39 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=16384.
+INFO 03-16 10:21:39 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=16384.
+INFO 03-16 10:21:39 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=16384.
+WARNING 03-16 10:21:40 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+WARNING 03-16 10:21:41 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+WARNING 03-16 10:21:41 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+WARNING 03-16 10:21:41 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+WARNING 03-16 10:21:41 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+WARNING 03-16 10:21:41 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+WARNING 03-16 10:21:41 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+WARNING 03-16 10:21:41 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+INFO 03-16 10:21:44 [__init__.py:216] Automatically detected platform cuda.
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:45 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:45 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', speculative_config=None, tokenizer='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m WARNING 03-16 10:21:45 [__init__.py:763] The environment variable HOST_IP is deprecated and ignored, as it is often used by Docker and other software to interact with the container's network stack. Please use VLLM_HOST_IP instead to set the IP address for vLLM processes to communicate with each other.
+INFO 03-16 10:21:45 [__init__.py:216] Automatically detected platform cuda.
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m W0316 10:21:46.483000 2750544 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m W0316 10:21:46.483000 2750544 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:46 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:46 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', speculative_config=None, tokenizer='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m WARNING 03-16 10:21:46 [__init__.py:763] The environment variable HOST_IP is deprecated and ignored, as it is often used by Docker and other software to interact with the container's network stack. Please use VLLM_HOST_IP instead to set the IP address for vLLM processes to communicate with each other.
+INFO 03-16 10:21:46 [__init__.py:216] Automatically detected platform cuda.
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+INFO 03-16 10:21:47 [__init__.py:216] Automatically detected platform cuda.
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:47 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+INFO 03-16 10:21:47 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:47 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:47 [__init__.py:216] Automatically detected platform cuda.
+INFO 03-16 10:21:47 [__init__.py:216] Automatically detected platform cuda.
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:47 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:47 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:47 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', speculative_config=None, tokenizer='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m WARNING 03-16 10:21:47 [__init__.py:763] The environment variable HOST_IP is deprecated and ignored, as it is often used by Docker and other software to interact with the container's network stack. Please use VLLM_HOST_IP instead to set the IP address for vLLM processes to communicate with each other.
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m W0316 10:21:47.925000 2750610 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m W0316 10:21:47.925000 2750610 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:48 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:48 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', speculative_config=None, tokenizer='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m WARNING 03-16 10:21:48 [__init__.py:763] The environment variable HOST_IP is deprecated and ignored, as it is often used by Docker and other software to interact with the container's network stack. Please use VLLM_HOST_IP instead to set the IP address for vLLM processes to communicate with each other.
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:48 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:48 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:48 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', speculative_config=None, tokenizer='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m WARNING 03-16 10:21:48 [__init__.py:763] The environment variable HOST_IP is deprecated and ignored, as it is often used by Docker and other software to interact with the container's network stack. Please use VLLM_HOST_IP instead to set the IP address for vLLM processes to communicate with each other.
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:48 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', speculative_config=None, tokenizer='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m WARNING 03-16 10:21:48 [__init__.py:763] The environment variable HOST_IP is deprecated and ignored, as it is often used by Docker and other software to interact with the container's network stack. Please use VLLM_HOST_IP instead to set the IP address for vLLM processes to communicate with each other.
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:48 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:48 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', speculative_config=None, tokenizer='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m WARNING 03-16 10:21:48 [__init__.py:763] The environment variable HOST_IP is deprecated and ignored, as it is often used by Docker and other software to interact with the container's network stack. Please use VLLM_HOST_IP instead to set the IP address for vLLM processes to communicate with each other.
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:48 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:48 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', speculative_config=None, tokenizer='/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m WARNING 03-16 10:21:48 [__init__.py:763] The environment variable HOST_IP is deprecated and ignored, as it is often used by Docker and other software to interact with the container's network stack. Please use VLLM_HOST_IP instead to set the IP address for vLLM processes to communicate with each other.
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:48 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:48 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m W0316 10:21:48.991000 2750613 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m W0316 10:21:48.991000 2750613 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m W0316 10:21:49.313000 2750628 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m W0316 10:21:49.313000 2750628 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m W0316 10:21:49.362000 2750622 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m W0316 10:21:49.362000 2750622 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:49 [gpu_model_runner.py:2602] Starting to load model /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct...
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m W0316 10:21:49.401000 2750625 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m W0316 10:21:49.401000 2750625 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m W0316 10:21:49.428000 2750616 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m W0316 10:21:49.428000 2750616 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:49 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m W0316 10:21:49.621000 2750619 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m W0316 10:21:49.621000 2750619 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:49 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:49 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:49 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:50 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:50 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:50 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:50 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:50 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:50 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:50 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:50 [gpu_model_runner.py:2602] Starting to load model /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct...
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:50 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:50 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:50 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:50 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:50 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.17it/s]
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:51 [gpu_model_runner.py:2602] Starting to load model /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct...
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.16it/s]
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.25it/s]
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.24it/s]
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m 
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:52 [default_loader.py:267] Loading weights took 1.70 seconds
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:52 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:2653] Model loading took 8.7961 GiB and 2.498427 seconds
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:2602] Starting to load model /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct...
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 153600 tokens, and profiled with 1 video items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.23it/s]
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.22it/s]
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m 
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:52 [default_loader.py:267] Loading weights took 1.72 seconds
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:2602] Starting to load model /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct...
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:2602] Starting to load model /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct...
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:2602] Starting to load model /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct...
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:52 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:52 [gpu_model_runner.py:2602] Starting to load model /mnt/tidal-alsh01/dataset/OCRData/public_models/Qwen3-VL-4B-Instruct...
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:53 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:53 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:53 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:53 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:53 [gpu_model_runner.py:2653] Model loading took 8.7961 GiB and 1.904087 seconds
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:53 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:53 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:53 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.19it/s]
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:21:53 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 153600 tokens, and profiled with 1 video items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:53 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.19it/s]
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.23it/s]
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.22it/s]
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m 
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.19it/s]
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:54 [default_loader.py:267] Loading weights took 1.72 seconds
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.05it/s]
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.19it/s]
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.07it/s]
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.25it/s]
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.24it/s]
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m 
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:54 [gpu_model_runner.py:2653] Model loading took 8.7961 GiB and 1.966344 seconds
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:54 [default_loader.py:267] Loading weights took 1.68 seconds
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.28it/s]
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.27it/s]
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m 
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:54 [default_loader.py:267] Loading weights took 1.67 seconds
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:21:54 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 153600 tokens, and profiled with 1 video items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:2653] Model loading took 8.7961 GiB and 1.870488 seconds
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:2653] Model loading took 8.7961 GiB and 1.845982 seconds
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.02it/s]
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.07it/s]
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.03it/s]
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.02it/s]
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.09it/s]
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m 
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.03it/s]
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m 
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m 
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 153600 tokens, and profiled with 1 video items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 153600 tokens, and profiled with 1 video items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:55 [default_loader.py:267] Loading weights took 2.02 seconds
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:55 [default_loader.py:267] Loading weights took 2.04 seconds
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:55 [default_loader.py:267] Loading weights took 1.93 seconds
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:2653] Model loading took 8.7961 GiB and 2.214280 seconds
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:2653] Model loading took 8.7961 GiB and 2.204149 seconds
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:2653] Model loading took 8.7961 GiB and 2.105028 seconds
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 153600 tokens, and profiled with 1 video items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 153600 tokens, and profiled with 1 video items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:21:55 [gpu_model_runner.py:3344] Encoder cache will be initialized with a budget of 153600 tokens, and profiled with 1 video items of the maximum feature size.
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:04 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/587d72087a/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:04 [backends.py:559] Dynamo bytecode transform time: 5.73 s
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:04 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/587d72087a/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:04 [backends.py:559] Dynamo bytecode transform time: 5.91 s
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:06 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/587d72087a/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:06 [backends.py:559] Dynamo bytecode transform time: 5.61 s
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:06 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/587d72087a/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:06 [backends.py:559] Dynamo bytecode transform time: 5.64 s
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:06 [backends.py:164] Directly load the compiled graph(s) for dynamic shape from the cache, took 1.849 s
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:06 [backends.py:164] Directly load the compiled graph(s) for dynamic shape from the cache, took 1.856 s
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:07 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/587d72087a/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:07 [backends.py:559] Dynamo bytecode transform time: 5.76 s
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:07 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/587d72087a/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:07 [backends.py:559] Dynamo bytecode transform time: 5.66 s
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:07 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/587d72087a/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:07 [backends.py:559] Dynamo bytecode transform time: 5.72 s
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:07 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/587d72087a/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:07 [backends.py:559] Dynamo bytecode transform time: 5.66 s
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:07 [monitor.py:34] torch.compile takes 5.73 s in total
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:07 [monitor.py:34] torch.compile takes 5.91 s in total
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:08 [backends.py:164] Directly load the compiled graph(s) for dynamic shape from the cache, took 1.849 s
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:08 [backends.py:164] Directly load the compiled graph(s) for dynamic shape from the cache, took 1.833 s
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:08 [gpu_worker.py:298] Available KV cache memory: 112.30 GiB
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:09 [kv_cache_utils.py:1087] GPU KV cache size: 817,760 tokens
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:09 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 24.96x
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:09 [monitor.py:34] torch.compile takes 5.61 s in total
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m 2026-03-16 10:22:09,091 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:09 [backends.py:164] Directly load the compiled graph(s) for dynamic shape from the cache, took 1.859 s
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:09 [gpu_worker.py:298] Available KV cache memory: 112.30 GiB
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:09 [monitor.py:34] torch.compile takes 5.64 s in total
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:09 [kv_cache_utils.py:1087] GPU KV cache size: 817,760 tokens
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:09 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 24.96x
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m 2026-03-16 10:22:09,399 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:09 [backends.py:164] Directly load the compiled graph(s) for dynamic shape from the cache, took 1.875 s
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:09 [backends.py:164] Directly load the compiled graph(s) for dynamic shape from the cache, took 1.833 s
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:09 [backends.py:164] Directly load the compiled graph(s) for dynamic shape from the cache, took 1.869 s
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:09 [monitor.py:34] torch.compile takes 5.76 s in total
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m 2026-03-16 10:22:09,975 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:10 [monitor.py:34] torch.compile takes 5.66 s in total
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:10 [monitor.py:34] torch.compile takes 5.66 s in total
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m 2026-03-16 10:22:10,285 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  60%|██████    | 3/5 [00:00<00:00, 28.88it/s][1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:10 [monitor.py:34] torch.compile takes 5.72 s in total
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 30.60it/s]
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:10 [gpu_worker.py:298] Available KV cache memory: 112.30 GiB
+Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 44.66it/s]
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:10 [kv_cache_utils.py:1087] GPU KV cache size: 817,760 tokens
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:10 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 24.96x
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m 2026-03-16 10:22:10,587 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  60%|██████    | 3/5 [00:00<00:00, 27.87it/s][1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:10 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took -1.84 GiB
+[1;36m(EngineCore_DP0 pid=2750610)[0;0m INFO 03-16 10:22:10 [core.py:210] init engine (profile, create kv cache, warmup model) took 17.52 seconds
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 29.90it/s]
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):  50%|█████     | 2/4 [00:00<00:00, 17.01it/s][1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:10 [gpu_worker.py:298] Available KV cache memory: 112.30 GiB
+Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 21.14it/s]
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:10 [kv_cache_utils.py:1087] GPU KV cache size: 817,760 tokens
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:10 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 24.96x
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m 2026-03-16 10:22:11,027 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:11 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took -1.84 GiB
+[1;36m(EngineCore_DP0 pid=2750544)[0;0m INFO 03-16 10:22:11 [core.py:210] init engine (profile, create kv cache, warmup model) took 18.51 seconds
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:11 [gpu_worker.py:298] Available KV cache memory: 112.30 GiB
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m 2026-03-16 10:22:11,471 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:11 [kv_cache_utils.py:1087] GPU KV cache size: 817,760 tokens
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:11 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 24.96x
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m 2026-03-16 10:22:11,523 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+INFO 03-16 10:22:11 [loggers.py:147] Engine 000: vllm cache_config_info with initialization after num_gpu_blocks is: 51110
+INFO 03-16 10:22:11 [llm.py:306] Supported_tasks: ['generate']
+Worker2/GPU2:   0%|          | 0/2 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 78.32it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:11 [gpu_worker.py:298] Available KV cache memory: 112.30 GiB
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:11 [gpu_worker.py:298] Available KV cache memory: 112.30 GiB
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:11 [gpu_worker.py:298] Available KV cache memory: 112.30 GiB
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  60%|██████    | 3/5 [00:00<00:00, 28.15it/s][1;36m(EngineCore_DP0 pid=2750619)[0;0m 2026-03-16 10:22:11,913 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 30.09it/s]
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:11 [kv_cache_utils.py:1087] GPU KV cache size: 817,760 tokens
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:11 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 24.96x
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:11 [kv_cache_utils.py:1087] GPU KV cache size: 817,760 tokens
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:11 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 24.96x
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:11 [kv_cache_utils.py:1087] GPU KV cache size: 817,760 tokens
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:11 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 24.96x
+Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 42.78it/s]
+INFO 03-16 10:22:12 [loggers.py:147] Engine 000: vllm cache_config_info with initialization after num_gpu_blocks is: 51110
+INFO 03-16 10:22:12 [llm.py:306] Supported_tasks: ['generate']
+Worker3/GPU3:   0%|          | 0/2 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750625)[0;0m 2026-03-16 10:22:12,073 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m 2026-03-16 10:22:12,086 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][A[1;36m(EngineCore_DP0 pid=2750622)[0;0m 2026-03-16 10:22:12,119 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+Adding requests: 100%|██████████| 1/1 [00:00<00:00, 75.60it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[1;36m(EngineCore_DP0 pid=2750619)[0;0m Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s]
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.81it/s, est. speed input: 2870.43 toks/s, output: 175.99 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.81it/s, est. speed input: 2870.43 toks/s, output: 175.99 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.81it/s, est. speed input: 2870.43 toks/s, output: 175.99 toks/s]
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:12 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took -1.84 GiB
+[1;36m(EngineCore_DP0 pid=2750613)[0;0m INFO 03-16 10:22:12 [core.py:210] init engine (profile, create kv cache, warmup model) took 17.59 seconds
+Worker2/GPU2:  50%|█████     | 1/2 [00:00<00:00,  1.62it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 187.46it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][ACapturing CUDA graphs (mixed prefill-decode, PIECEWISE):  60%|██████    | 3/5 [00:00<00:00, 24.56it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 26.45it/s]
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750628)[0;0m 2026-03-16 10:22:12,408 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 44.21it/s]
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:12 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took -1.84 GiB
+[1;36m(EngineCore_DP0 pid=2750619)[0;0m INFO 03-16 10:22:12 [core.py:210] init engine (profile, create kv cache, warmup model) took 17.48 seconds
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.70it/s, est. speed input: 2618.24 toks/s, output: 178.97 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.70it/s, est. speed input: 2618.24 toks/s, output: 178.97 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.70it/s, est. speed input: 2618.24 toks/s, output: 178.97 toks/s]
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  60%|██████    | 3/5 [00:00<00:00, 28.95it/s]Worker3/GPU3:  50%|█████     | 1/2 [00:00<00:00,  1.51it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 328.30it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s, est. speed input: 3997.05 toks/s, output: 195.49 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s, est. speed input: 3997.05 toks/s, output: 195.49 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.93it/s, est. speed input: 3997.05 toks/s, output: 195.49 toks/s]
+Worker2/GPU2: 100%|██████████| 2/2 [00:01<00:00,  1.72it/s]Worker2/GPU2: 100%|██████████| 2/2 [00:01<00:00,  1.70it/s]
+[Worker 2] ✅ 完成
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 29.76it/s]
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s][rank0]:[W316 10:22:12.821875565 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 35.70it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 35.64it/s]
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m 2026-03-16 10:22:12,981 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m 2026-03-16 10:22:13,005 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m 2026-03-16 10:22:13,005 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:13 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took -1.84 GiB
+[1;36m(EngineCore_DP0 pid=2750628)[0;0m INFO 03-16 10:22:13 [core.py:210] init engine (profile, create kv cache, warmup model) took 17.97 seconds
+INFO 03-16 10:22:13 [loggers.py:147] Engine 000: vllm cache_config_info with initialization after num_gpu_blocks is: 51110
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s]INFO 03-16 10:22:13 [llm.py:306] Supported_tasks: ['generate']
+Worker1/GPU1:   0%|          | 0/2 [00:00<?, ?it/s]
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.85it/s, est. speed input: 2658.21 toks/s, output: 209.60 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.85it/s, est. speed input: 2658.21 toks/s, output: 209.60 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.85it/s, est. speed input: 2658.21 toks/s, output: 209.60 toks/s]
+
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AWorker3/GPU3: 100%|██████████| 2/2 [00:01<00:00,  1.63it/s]Worker3/GPU3: 100%|██████████| 2/2 [00:01<00:00,  1.61it/s]
+[Worker 3] ✅ 完成
+Adding requests: 100%|██████████| 1/1 [00:00<00:00, 73.05it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[1;36m(EngineCore_DP0 pid=2750622)[0;0m Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s][1;36m(EngineCore_DP0 pid=2750616)[0;0m Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  20%|██        | 1/5 [00:00<00:00,  6.82it/s][rank0]:[W316 10:22:13.381215931 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  40%|████      | 2/5 [00:00<00:00, 18.01it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  40%|████      | 2/5 [00:00<00:00, 17.23it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 21.22it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 18.82it/s]
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 25.13it/s]
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 24.48it/s]
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s]INFO 03-16 10:22:13 [loggers.py:147] Engine 000: vllm cache_config_info with initialization after num_gpu_blocks is: 51110
+Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 44.68it/s]
+Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 44.92it/s]
+Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 41.42it/s]
+INFO 03-16 10:22:13 [llm.py:306] Supported_tasks: ['generate']
+Worker6/GPU6:   0%|          | 0/2 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 75.98it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:13 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took -1.84 GiB
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:13 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took -1.84 GiB
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:13 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took -1.84 GiB
+[1;36m(EngineCore_DP0 pid=2750625)[0;0m INFO 03-16 10:22:13 [core.py:210] init engine (profile, create kv cache, warmup model) took 18.28 seconds
+[1;36m(EngineCore_DP0 pid=2750622)[0;0m INFO 03-16 10:22:13 [core.py:210] init engine (profile, create kv cache, warmup model) took 18.22 seconds
+[1;36m(EngineCore_DP0 pid=2750616)[0;0m INFO 03-16 10:22:13 [core.py:210] init engine (profile, create kv cache, warmup model) took 18.28 seconds
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.48it/s, est. speed input: 2240.57 toks/s, output: 165.63 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.48it/s, est. speed input: 2240.57 toks/s, output: 165.63 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.48it/s, est. speed input: 2240.57 toks/s, output: 165.63 toks/s]
+Worker1/GPU1:  50%|█████     | 1/2 [00:00<00:00,  1.36it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 168.94it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][AINFO 03-16 10:22:14 [loggers.py:147] Engine 000: vllm cache_config_info with initialization after num_gpu_blocks is: 51110
+INFO 03-16 10:22:14 [llm.py:306] Supported_tasks: ['generate']
+Worker4/GPU4:   0%|          | 0/2 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 76.74it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.47it/s, est. speed input: 2672.26 toks/s, output: 139.55 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.47it/s, est. speed input: 2672.26 toks/s, output: 139.55 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.47it/s, est. speed input: 2672.26 toks/s, output: 139.55 toks/s]
+Worker6/GPU6:  50%|█████     | 1/2 [00:00<00:00,  1.33it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 247.06it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.05it/s, est. speed input: 2885.44 toks/s, output: 174.06 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.05it/s, est. speed input: 2885.44 toks/s, output: 174.06 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.05it/s, est. speed input: 2885.44 toks/s, output: 174.06 toks/s]
+Worker4/GPU4:  50%|█████     | 1/2 [00:00<00:00,  1.82it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 201.51it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.35it/s, est. speed input: 2598.87 toks/s, output: 191.90 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.35it/s, est. speed input: 2598.87 toks/s, output: 191.90 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.35it/s, est. speed input: 2598.87 toks/s, output: 191.90 toks/s]
+Worker1/GPU1: 100%|██████████| 2/2 [00:01<00:00,  1.30it/s]Worker1/GPU1: 100%|██████████| 2/2 [00:01<00:00,  1.31it/s]
+[Worker 1] ✅ 完成
+INFO 03-16 10:22:14 [loggers.py:147] Engine 000: vllm cache_config_info with initialization after num_gpu_blocks is: 51110
+INFO 03-16 10:22:14 [loggers.py:147] Engine 000: vllm cache_config_info with initialization after num_gpu_blocks is: 51110
+[rank0]:[W316 10:22:14.865780559 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+INFO 03-16 10:22:14 [loggers.py:147] Engine 000: vllm cache_config_info with initialization after num_gpu_blocks is: 51110
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.59it/s, est. speed input: 3776.96 toks/s, output: 204.35 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.59it/s, est. speed input: 3776.96 toks/s, output: 204.35 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.58it/s, est. speed input: 3776.96 toks/s, output: 204.35 toks/s]
+Worker6/GPU6: 100%|██████████| 2/2 [00:01<00:00,  1.77it/s]Worker6/GPU6: 100%|██████████| 2/2 [00:01<00:00,  1.69it/s]
+[Worker 6] ✅ 完成
+INFO 03-16 10:22:14 [llm.py:306] Supported_tasks: ['generate']
+Worker7/GPU7:   0%|          | 0/2 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AINFO 03-16 10:22:15 [llm.py:306] Supported_tasks: ['generate']
+Worker0/GPU0:   0%|          | 0/2 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 70.49it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AINFO 03-16 10:22:15 [llm.py:306] Supported_tasks: ['generate']
+Worker5/GPU5:   0%|          | 0/2 [00:00<?, ?it/s][rank0]:[W316 10:22:15.002748381 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Adding requests: 100%|██████████| 1/1 [00:00<00:00, 58.19it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 58.38it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.00it/s, est. speed input: 3706.05 toks/s, output: 197.86 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.00it/s, est. speed input: 3706.05 toks/s, output: 197.86 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.00it/s, est. speed input: 3706.05 toks/s, output: 197.86 toks/s]
+Worker4/GPU4: 100%|██████████| 2/2 [00:01<00:00,  1.82it/s]Worker4/GPU4: 100%|██████████| 2/2 [00:01<00:00,  1.82it/s]
+[Worker 4] ✅ 完成
+[rank0]:[W316 10:22:15.328687834 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.21it/s, est. speed input: 3119.61 toks/s, output: 172.19 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.21it/s, est. speed input: 3119.61 toks/s, output: 172.19 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  2.20it/s, est. speed input: 3119.61 toks/s, output: 172.19 toks/s]
+Worker7/GPU7:  50%|█████     | 1/2 [00:00<00:00,  1.91it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 164.66it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.40it/s, est. speed input: 3126.70 toks/s, output: 169.72 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.40it/s, est. speed input: 3126.70 toks/s, output: 169.72 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.40it/s, est. speed input: 3126.70 toks/s, output: 169.72 toks/s]
+Worker0/GPU0:  50%|█████     | 1/2 [00:00<00:00,  1.29it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 300.26it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.36it/s, est. speed input: 2356.44 toks/s, output: 184.09 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.36it/s, est. speed input: 2356.44 toks/s, output: 184.09 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.36it/s, est. speed input: 2356.44 toks/s, output: 184.09 toks/s]
+Worker5/GPU5:  50%|█████     | 1/2 [00:00<00:00,  1.25it/s]
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 1/1 [00:00<00:00, 261.98it/s]
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.56it/s, est. speed input: 3417.90 toks/s, output: 194.71 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.56it/s, est. speed input: 3417.90 toks/s, output: 194.71 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.56it/s, est. speed input: 3417.90 toks/s, output: 194.71 toks/s]
+Worker7/GPU7: 100%|██████████| 2/2 [00:01<00:00,  1.62it/s]Worker7/GPU7: 100%|██████████| 2/2 [00:01<00:00,  1.65it/s]
+[Worker 7] ✅ 完成
+[rank0]:[W316 10:22:16.240259300 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.58it/s, est. speed input: 2321.04 toks/s, output: 206.83 toks/s][A
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.58it/s, est. speed input: 2321.04 toks/s, output: 206.83 toks/s][AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.57it/s, est. speed input: 2321.04 toks/s, output: 206.83 toks/s]
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.45it/s, est. speed input: 2140.92 toks/s, output: 191.84 toks/s][AWorker5/GPU5: 100%|██████████| 2/2 [00:01<00:00,  1.37it/s]
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.45it/s, est. speed input: 2140.92 toks/s, output: 191.84 toks/s][AWorker5/GPU5: 100%|██████████| 2/2 [00:01<00:00,  1.32it/s]
+[Worker 5] ✅ 完成
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.33it/s, est. speed input: 2140.92 toks/s, output: 191.84 toks/s]
+Worker0/GPU0: 100%|██████████| 2/2 [00:01<00:00,  1.27it/s]Worker0/GPU0: 100%|██████████| 2/2 [00:01<00:00,  1.28it/s]
+[Worker 0] ✅ 完成
+[rank0]:[W316 10:22:16.587760586 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+[rank0]:[W316 10:22:16.617437955 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+🎉 全部处理完成
+
+============================================================
+  End Time   : 2026-03-16 10:22:19
+  Exit Code  : 0
+============================================================
