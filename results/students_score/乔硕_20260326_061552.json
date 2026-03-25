@@ -1,0 +1,189 @@
+{
+  "student_name": "乔硕",
+  "generated_at": "2026-03-26T06:15:52",
+  "total_certificates_found": 3,
+  "score_summary": {
+    "total_score_min": 2.0,
+    "total_score_max": 2.1,
+    "total_score_summary": "总加分区间：[2.0, 2.1]",
+    "effective_count": 3,
+    "skipped_count": 0,
+    "effective_entries": [
+      {
+        "certificate_name": "2023年北京科技大学物理竞赛",
+        "source_file": "test_13.json",
+        "year": "2023",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "competition_id": "大学物理竞赛",
+        "score_min": 0.4,
+        "score_max": 0.4
+      },
+      {
+        "certificate_name": "“泰豪杯”北京科技大学第十一届单片机应用大赛",
+        "source_file": "test_16.json",
+        "year": "未知年份",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "competition_id": "北京科技大学单片机应用大赛",
+        "score_min": 0.4,
+        "score_max": 0.4
+      },
+      {
+        "certificate_name": "2024中国机器人大赛暨RoboCup机器人世界杯中国赛（RoboCup足球机器人-仿真3D组）",
+        "source_file": "test_7.json",
+        "year": "2024",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "competition_id": "机器人大赛",
+        "score_min": 1.2,
+        "score_max": 1.3
+      }
+    ],
+    "skipped_entries": [],
+    "dedup_notes": [],
+    "cap_notes": [],
+    "warnings": [
+      "⚠ 总分为估算区间，最终以学院学术委员会审核为准。",
+      "⚠ 同一科技作品获两个不同奖项仅取最高分，需人工核查（系统未自动识别）。",
+      "⚠ 论文/专利/软著需核查署名单位为「北京科技大学」。",
+      "⚠ 匹配置信度为「低」的条目请人工复核后再计分。"
+    ]
+  },
+  "score_details": [
+    {
+      "source_file": "test_13.json",
+      "certificate_type": "Competition",
+      "certificate_name": "2023年北京科技大学物理竞赛",
+      "issue_date": "2023-10-18",
+      "issuing_authority": [
+        "北京科技大学"
+      ],
+      "students_in_cert": [
+        "乔硕"
+      ],
+      "advisors_in_cert": [],
+      "student_name": "乔硕",
+      "student_rank_in_team": null,
+      "total_students_in_cert": null,
+      "matched_rule": {
+        "display_name": "北京科技大学物理竞赛",
+        "competition_id": "大学物理竞赛",
+        "competition_name": "大学物理竞赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "学科竞赛",
+        "level": "校级A",
+        "is_team": false,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 1.0,
+        "match_confidence": "高"
+      },
+      "award_level_raw": "二等奖",
+      "award_level_normalized": "二等",
+      "scoring": {
+        "scoring_type": "matrix_individual",
+        "individual_max": 0.4,
+        "team_total": null,
+        "score_range_min": null,
+        "score_range_max": null,
+        "score_fixed": 0.4,
+        "note": null
+      },
+      "summary": "[个人] 北京科技大学物理竞赛 (校级A) · 二等奖 · 可加 0.4 分"
+    },
+    {
+      "source_file": "test_16.json",
+      "certificate_type": "Competition",
+      "certificate_name": "“泰豪杯”北京科技大学第十一届单片机应用大赛",
+      "issue_date": null,
+      "issuing_authority": [],
+      "students_in_cert": [
+        "乔硕"
+      ],
+      "advisors_in_cert": [],
+      "student_name": "乔硕",
+      "student_rank_in_team": null,
+      "total_students_in_cert": null,
+      "matched_rule": {
+        "display_name": "校内选拔赛",
+        "competition_id": "北京科技大学单片机应用大赛",
+        "competition_name": "北京科技大学单片机应用大赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "科技竞赛",
+        "level": "校级A",
+        "is_team": false,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.5909,
+        "match_confidence": "中"
+      },
+      "award_level_raw": "二等奖",
+      "award_level_normalized": "二等",
+      "scoring": {
+        "scoring_type": "matrix_individual",
+        "individual_max": 0.4,
+        "team_total": null,
+        "score_range_min": null,
+        "score_range_max": null,
+        "score_fixed": 0.4,
+        "note": null
+      },
+      "summary": "[个人] 校内选拔赛 (校级A) · 二等奖 · 可加 0.4 分"
+    },
+    {
+      "source_file": "test_7.json",
+      "certificate_type": "Competition",
+      "certificate_name": "2024中国机器人大赛暨RoboCup机器人世界杯中国赛（RoboCup足球机器人-仿真3D组）",
+      "issue_date": "2024-05-17",
+      "issuing_authority": [],
+      "students_in_cert": [
+        "沈俊逸",
+        "陈慧宇",
+        "乔硕",
+        "张广铁",
+        "胡天一"
+      ],
+      "advisors_in_cert": [
+        "李辉",
+        "任莹莹"
+      ],
+      "student_name": "乔硕",
+      "student_rank_in_team": 3,
+      "total_students_in_cert": 5,
+      "matched_rule": {
+        "display_name": "中国机器人大赛暨RoboCup机器人世界杯中国赛专项赛",
+        "competition_id": "机器人大赛",
+        "competition_name": "机器人大赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "科技竞赛",
+        "level": "国家级A",
+        "is_team": true,
+        "special_rule": "ABU RoboCon、机甲大师超级对抗赛、RoboCup国赛为团队比赛颁发个人证书，由指导教师给出贡献排名后按scoring_matrix计算",
+        "score_cap": null,
+        "match_similarity": 0.8889,
+        "match_confidence": "高"
+      },
+      "award_level_raw": "三等奖",
+      "award_level_normalized": "三等",
+      "scoring": {
+        "scoring_type": "matrix_team",
+        "individual_max": 1.3,
+        "team_total": 6.0,
+        "score_range_min": 1.2,
+        "score_range_max": 1.3,
+        "score_fixed": null,
+        "note": null
+      },
+      "summary": "[团队] 中国机器人大赛暨RoboCup机器人世界杯中国赛专项赛 (国家级A) · 三等奖 · 团队总分 6.0 · 乔硕 排第 3/5 位，可加分区间 [1.2, 1.3]"
+    }
+  ],
+  "global_rules_reminder": [
+    "加分必须查看获奖证书原件并上交复印件及保研加分申请表",
+    "拟获奖项不能加分",
+    "同年度同类别不同级别奖项按最高级加分",
+    "同一个科技作品获得两个不同奖项，只加最高分",
+    "亚广联大学生机器人大赛ABU RoboCon、机甲大师-超级对抗赛、RoboCup国赛为团队比赛但颁发个人证书，由团队指导教师给出自动化学院成员贡献排名，以自动化学院成员为团队参照scoring_matrix进行加分",
+    "论文、专利、软著需署名北京科技大学，且作者前10名（作者中首位教师不参与排名）可以加分，加分参照scoring_matrix；原则上不认定署名非北京科技大学或北京科技大学顺德创新学院（研究生院）的论文、专利、软著",
+    "艺术类加分最高累加不超过1分；荣誉称号类加分最高累加不超过1分",
+    "应征入伍类取相应奖项级别最高分加分",
+    "证书有效期及加分截止时间根据实际保研加分工作进度设置，具体解释权归学院学术委员会所有"
+  ]
+}

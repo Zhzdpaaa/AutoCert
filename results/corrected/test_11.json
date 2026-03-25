@@ -1,0 +1,17 @@
+{
+  "certificate_type": "Paper",
+  "name": "Knowledge Graph Embedding With Graph Convolutional Network and Bidirectional Gated Recurrent Unit for Fault Diagnosis of Industrial Processes",
+  "students": [
+    "马金瑶"
+  ],
+  "advisors": [],
+  "team_name": null,
+  "issue_date": "2025-03-01",
+  "issuing_authority": [],
+  "award_level": null,
+  "_correction_meta": {
+    "corrections_log": [
+      "[CORRECT-S] 'Jinyao Ma' → '马金瑶' (距离=0, 匹配字段=english_name)"
+    ]
+  }
+}

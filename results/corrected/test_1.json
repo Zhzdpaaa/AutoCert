@@ -1,0 +1,60 @@
+{
+  "certificate_type": "Paper",
+  "name": "Knowledge Embedding With Graph Convolutional Network and Bidirectional Gated Recurrent Unit for Fault Diagnosis",
+  "students": [
+    "马金瑶"
+  ],
+  "advisors": [
+    "董洁",
+    "彭开香"
+  ],
+  "team_name": null,
+  "issue_date": "2025-01-17",
+  "issuing_authority": [],
+  "award_level": null,
+  "_correction_meta": {
+    "corrections_log": [
+      "[CORRECT-S] 'Jie Dong' → '董洁' (距离=0, 匹配字段=english_name)",
+      "[MOVE] 'Jie Dong' (→'董洁') 在 people_name.json 中属于 advisors，已从 students 移至 advisors",
+      "[REMOVE-S] 'Cuiping Chen' → 已从 students 移除（未找到匹配）",
+      "[REMOVE-S] 'Chi Zhang' → 已从 students 移除（未找到匹配）",
+      "[CORRECT-S] 'Jinyao Ma' → '马金瑶' (距离=0, 匹配字段=english_name)",
+      "[CORRECT-S] 'Kaixiang Peng' → '彭开香' (距离=0, 匹配字段=english_name)",
+      "[MOVE] 'Kaixiang Peng' (→'彭开香') 在 people_name.json 中属于 advisors，已从 students 移至 advisors"
+    ],
+    "warnings_need_review": [
+      {
+        "field": "students→advisors",
+        "original_name": "Jie Dong",
+        "corrected_name": "董洁",
+        "message": "'Jie Dong' 在 people_name.json 中属于 advisors，已自动移至 advisors 字段"
+      },
+      {
+        "field": "students→advisors",
+        "original_name": "Kaixiang Peng",
+        "corrected_name": "彭开香",
+        "message": "'Kaixiang Peng' 在 people_name.json 中属于 advisors，已自动移至 advisors 字段"
+      }
+    ],
+    "removed_from_students": [
+      {
+        "original_name": "Cuiping Chen",
+        "reason": "在 people_name.json 中未找到匹配项 (最近编辑距离=5)",
+        "nearest_candidates": [
+          "陈亚龙",
+          "陈慧宇",
+          "沈俊逸"
+        ]
+      },
+      {
+        "original_name": "Chi Zhang",
+        "reason": "在 people_name.json 中未找到匹配项 (最近编辑距离=4)",
+        "nearest_candidates": [
+          "张希琛",
+          "李擎",
+          "张一豆"
+        ]
+      }
+    ]
+  }
+}

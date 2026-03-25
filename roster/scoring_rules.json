@@ -1,0 +1,1425 @@
+{
+    "_metadata": {
+      "source": "北京科技大学自动化学院2026届本科毕业生保研加分规则",
+      "description": "结构化加分规则，供 calculate_score.py 调用",
+      "score_format": "个人最高分 / 团队总分",
+      "level_codes": {
+        "校级A": "校级(二等以上) A档",
+        "校级B": "校级(二等以上) B档",
+        "市级A": "市级(三等以上) A档",
+        "市级B": "市级(三等以上) B档",
+        "市级C": "市级(三等以上) C档",
+        "国家级A": "国家级(三等以上) A档",
+        "国家级B": "国家级(三等以上) B档",
+        "国家级C": "国家级(三等以上) C档",
+        "国家级以上": "国家级以上"
+      }
+    },
+  
+    "scoring_matrix": {
+      "_note": "校级不设三等奖加分（以\\标注）；国家级以上无统一分值，见各条目 fixed_score",
+      "校级A": {
+        "一等": { "individual": 0.5, "team_total": 1.2 },
+        "二等": { "individual": 0.4, "team_total": 0.9 },
+        "三等": null
+      },
+      "校级B": {
+        "一等": { "individual": 0.4, "team_total": 0.9 },
+        "二等": { "individual": 0.3, "team_total": 0.6 },
+        "三等": null
+      },
+      "市级A": {
+        "一等": { "individual": 1.0, "team_total": 4.5 },
+        "二等": { "individual": 0.9, "team_total": 4.0 },
+        "三等": { "individual": 0.8, "team_total": 3.5 }
+      },
+      "市级B": {
+        "一等": { "individual": 0.8, "team_total": 2.0 },
+        "二等": { "individual": 0.7, "team_total": 1.7 },
+        "三等": { "individual": 0.6, "team_total": 1.4 }
+      },
+      "市级C": {
+        "一等": { "individual": 0.7, "team_total": 1.8 },
+        "二等": { "individual": 0.6, "team_total": 1.5 },
+        "三等": { "individual": 0.5, "team_total": 1.2 }
+      },
+      "国家级A": {
+        "一等": { "individual": 1.5, "team_total": 8.0 },
+        "二等": { "individual": 1.4, "team_total": 7.0 },
+        "三等": { "individual": 1.3, "team_total": 6.0 }
+      },
+      "国家级B": {
+        "一等": { "individual": 1.4, "team_total": 3.6 },
+        "二等": { "individual": 1.3, "team_total": 3.2 },
+        "三等": { "individual": 1.2, "team_total": 2.8 }
+      },
+      "国家级C": {
+        "一等": { "individual": 1.3, "team_total": 3.2 },
+        "二等": { "individual": 1.2, "team_total": 2.8 },
+        "三等": { "individual": 1.1, "team_total": 2.4 }
+      }
+    },
+  
+    "global_notes": [
+      "加分必须查看获奖证书原件并上交复印件及保研加分申请表",
+      "拟获奖项不能加分",
+      "同年度同类别不同级别奖项按最高级加分",
+      "同一个科技作品获得两个不同奖项，只加最高分",
+      "亚广联大学生机器人大赛ABU RoboCon、机甲大师-超级对抗赛、RoboCup国赛为团队比赛但颁发个人证书，由团队指导教师给出自动化学院成员贡献排名，以自动化学院成员为团队参照scoring_matrix进行加分",
+      "论文、专利、软著需署名北京科技大学，且作者前10名（作者中首位教师不参与排名）可以加分，加分参照scoring_matrix；原则上不认定署名非北京科技大学或北京科技大学顺德创新学院（研究生院）的论文、专利、软著",
+      "艺术类加分最高累加不超过1分；荣誉称号类加分最高累加不超过1分",
+      "应征入伍类取相应奖项级别最高分加分",
+      "证书有效期及加分截止时间根据实际保研加分工作进度设置，具体解释权归学院学术委员会所有"
+    ],
+  
+    "categories": [
+  
+      {
+        "id": "荣誉称号",
+        "name": "荣誉称号",
+        "score_cap": 1.0,
+        "score_cap_note": "本类别加分最高累加不超过1分",
+        "subcategories": [
+          {
+            "id": "学生干部",
+            "name": "学生干部",
+            "competitions": [
+              {
+                "name": "校十佳团支书",
+                "level": "固定",
+                "fixed_score": 0.4,
+                "is_team": false
+              },
+              {
+                "name": "校优秀学生干部",
+                "level": "固定",
+                "fixed_score": 0.3,
+                "is_team": false
+              },
+              {
+                "name": "校优秀团干部",
+                "level": "固定",
+                "fixed_score": 0.3,
+                "is_team": false
+              },
+              {
+                "name": "首都先锋杯优秀团员",
+                "level": "固定",
+                "fixed_score": 0.5,
+                "is_team": false
+              },
+              {
+                "name": "首都先锋杯优秀团干部",
+                "level": "固定",
+                "fixed_score": 0.5,
+                "is_team": false
+              }
+            ]
+          },
+          {
+            "id": "三好学生",
+            "name": "三好学生",
+            "competitions": [
+              {
+                "name": "校优秀三好学生",
+                "level": "固定",
+                "fixed_score": 0.3,
+                "is_team": false
+              },
+              {
+                "name": "校三好学生",
+                "level": "固定",
+                "fixed_score": 0.3,
+                "is_team": false
+              },
+              {
+                "name": "北京市三好学生",
+                "level": "固定",
+                "fixed_score": 0.5,
+                "is_team": false
+              }
+            ]
+          }
+        ]
+      },
+  
+      {
+        "id": "社会服务",
+        "name": "社会服务",
+        "subcategories": [
+          {
+            "id": "志愿服务",
+            "name": "志愿服务",
+            "competitions": [
+              {
+                "name": "校十佳志愿者",
+                "level": "固定",
+                "fixed_score": 0.4,
+                "is_team": false
+              }
+            ]
+          },
+          {
+            "id": "应征入伍",
+            "name": "应征入伍",
+            "special_rule": "取相应奖项级别最高分加分",
+            "competitions": [
+              {
+                "name": "应征入伍",
+                "level": "校级A",
+                "award_rank": "一等",
+                "is_team": false
+              },
+              {
+                "name": "优秀义务兵/嘉奖/四有军人/百优新兵/三等功",
+                "level": "市级A",
+                "is_team": false
+              },
+              {
+                "name": "战狼勋章",
+                "level": "市级A",
+                "is_team": false
+              },
+              {
+                "name": "二等功",
+                "level": "国家级A",
+                "is_team": false
+              },
+              {
+                "name": "极限勇士勋章",
+                "level": "国家级A",
+                "is_team": false
+              },
+              {
+                "name": "一等功",
+                "level": "国家级以上",
+                "is_team": false
+              },
+              {
+                "name": "八一勋章",
+                "level": "国家级以上",
+                "is_team": false
+              }
+            ]
+          }
+        ]
+      },
+  
+      {
+        "id": "艺术类",
+        "name": "艺术类",
+        "score_cap": 1.0,
+        "score_cap_note": "本类别加分最高累加不超过1分",
+        "subcategories": [
+          {
+            "id": "音乐类",
+            "name": "音乐类",
+            "competitions": [
+              {
+                "name": "北京大学生音乐节器乐类展演",
+                "level": "校级A",
+                "is_team": false
+              },
+              {
+                "name": "全国大学生艺术展演艺术表演类",
+                "level": "市级A",
+                "is_team": false
+              }
+            ]
+          },
+          {
+            "id": "舞蹈类",
+            "name": "舞蹈类",
+            "competitions": [
+              {
+                "name": "北京大学生舞蹈节展演",
+                "level": "校级A",
+                "is_team": false
+              }
+            ]
+          },
+          {
+            "id": "戏剧类",
+            "name": "戏剧类",
+            "competitions": [
+              {
+                "name": "北京大学生戏剧节展演",
+                "level": "校级A",
+                "is_team": false
+              },
+              {
+                "name": "北京市大学生艺术展演",
+                "level": "校级A",
+                "is_team": false
+              },
+              {
+                "name": "中国校园戏剧节展演",
+                "level": "市级A",
+                "is_team": false
+              }
+            ]
+          }
+        ]
+      },
+  
+      {
+        "id": "体育类",
+        "name": "体育类",
+        "special_rule": "以名次定等级：第1-2名=一等，第3-5名=二等，第6-8名=三等",
+        "subcategories": [
+          {
+            "id": "体育类",
+            "name": "体育类",
+            "competitions": [
+              {
+                "name": "省部级体育竞赛（第1-2名）",
+                "level": "市级A",
+                "award_rank": "一等",
+                "fixed_score": 1.0,
+                "is_team": false
+              },
+              {
+                "name": "省部级体育竞赛（第3-5名）",
+                "level": "市级A",
+                "award_rank": "二等",
+                "fixed_score": 0.8,
+                "is_team": false
+              },
+              {
+                "name": "省部级体育竞赛（第6-8名）",
+                "level": "市级A",
+                "award_rank": "三等",
+                "fixed_score": 0.5,
+                "is_team": false
+              },
+              {
+                "name": "国家级体育竞赛（第1-2名）",
+                "level": "国家级A",
+                "award_rank": "一等",
+                "fixed_score": 1.5,
+                "is_team": false
+              },
+              {
+                "name": "国家级体育竞赛（第3-5名）",
+                "level": "国家级A",
+                "award_rank": "二等",
+                "fixed_score": 1.3,
+                "is_team": false
+              },
+              {
+                "name": "国家级体育竞赛（第6-8名）",
+                "level": "国家级A",
+                "award_rank": "三等",
+                "fixed_score": 1.2,
+                "is_team": false
+              }
+            ]
+          }
+        ]
+      },
+  
+      {
+        "id": "学科竞赛科技竞赛创新创业竞赛",
+        "name": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategories": [
+  
+          {
+            "id": "学科竞赛",
+            "name": "学科竞赛",
+            "competitions": [
+              {
+                "id": "英语竞赛",
+                "name": "英语竞赛",
+                "entries": [
+                  {
+                    "name": "蓝桥杯/BETT杯全国大学生英语阅读大赛",
+                    "level": "校级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国大学生商务英语竞赛（CEATEC）",
+                    "level": "校级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "创新实践杯全国大学生英语词汇竞赛",
+                    "level": "校级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国大学生英语作文大赛",
+                    "level": "校级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "中国故事大赛·双语中国全国大学生外语翻译大赛",
+                    "level": "校级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国大学生英语竞赛（NECCS）",
+                    "level": "国家级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "21世纪杯全国英语演讲比赛",
+                    "level": "国家级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "外研社杯全国英语演讲大赛",
+                    "level": "国家级B",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "高等数学竞赛",
+                "name": "高等数学竞赛",
+                "entries": [
+                  {
+                    "name": "校高数竞赛",
+                    "level": "校级A",
+                    "is_team": false
+                  },
+                  {
+                    "name": "北京市高数竞赛",
+                    "level": "市级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国大学生数学竞赛（北京赛区）/（预赛）",
+                    "level": "市级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国大学生数学竞赛（决赛）",
+                    "level": "国家级A",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "数学建模大赛",
+                "name": "数学建模大赛",
+                "entries": [
+                  {
+                    "name": "高教杯全国大学生数学建模竞赛北京赛区",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "北京市数学建模",
+                    "level": "市级C",
+                    "is_team": true
+                  },
+                  {
+                    "name": "Interdisciplinary Contest In Modeling（美赛ICM）",
+                    "level": "市级C",
+                    "is_team": true,
+                    "special_rule": "M奖及以上视为一等奖，H奖视为二等奖，S奖不加分"
+                  },
+                  {
+                    "name": "Mathematical Contest In Modeling（美赛MCM）",
+                    "level": "市级C",
+                    "is_team": true,
+                    "special_rule": "M奖及以上视为一等奖，H奖视为二等奖，S奖不加分"
+                  },
+                  {
+                    "name": "MathorCup高校数学建模挑战赛",
+                    "level": "市级C",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中青杯数学建模大赛",
+                    "level": "市级C",
+                    "is_team": true
+                  },
+                  {
+                    "name": "高教杯全国大学生数学建模大赛（全国赛）",
+                    "level": "国家级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "大学物理竞赛",
+                "name": "大学物理竞赛",
+                "entries": [
+                  {
+                    "name": "北京科技大学物理竞赛",
+                    "level": "校级A",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国部分地区大学生物理竞赛",
+                    "level": "市级B",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "物理实验竞赛",
+                "name": "物理实验竞赛",
+                "entries": [
+                  {
+                    "name": "北京科技大学物理实验（创新设计）竞赛",
+                    "level": "校级A",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国大学生物理实验竞赛",
+                    "level": "国家级B",
+                    "is_team": false
+                  }
+                ]
+              }
+            ]
+          },
+  
+          {
+            "id": "科技竞赛",
+            "name": "科技竞赛",
+            "competitions": [
+              {
+                "id": "全国大学生统计建模大赛",
+                "name": "全国大学生统计建模大赛",
+                "entries": [
+                  {
+                    "name": "全国大学生统计建模大赛（北京赛区）",
+                    "level": "市级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "中国机器人及人工智能大赛",
+                "name": "中国机器人及人工智能大赛",
+                "entries": [
+                  {
+                    "name": "中国机器人及人工智能大赛北京市赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国机器人及人工智能全国总决赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "北京科技大学钢铁模拟冶炼大赛",
+                "name": "北京科技大学钢铁模拟冶炼大赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "北京科技大学航模竞赛",
+                "name": "北京科技大学航模竞赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "全国高等学校采矿工程专业学生实践作品大赛",
+                "name": "全国高等学校采矿工程专业学生实践作品大赛",
+                "entries": [
+                  {
+                    "name": "全国高等学校采矿工程专业学生实践作品大赛",
+                    "level": "国家级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "北京科技大学单片机应用大赛",
+                "name": "北京科技大学单片机应用大赛",
+                "entries": [
+                  {
+                    "name": "校内选拔赛",
+                    "level": "校级A",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "北京科技大学传感器大赛",
+                "name": "北京科技大学传感器大赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "北京科技大学亿智杯人工智能创新大赛",
+                "name": "北京科技大学亿智杯人工智能创新大赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "智能车大赛",
+                "name": "智能车大赛",
+                "entries": [
+                  {
+                    "name": "智能汽车校内赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "华北赛区智能车比赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国智能汽车比赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "集成电路设计大赛",
+                "name": "集成电路设计大赛",
+                "entries": [
+                  {
+                    "name": "北京市大学生集成电路设计大赛",
+                    "level": "市级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "机器人大赛",
+                "name": "机器人大赛",
+                "special_rule": "ABU RoboCon、机甲大师超级对抗赛、RoboCup国赛为团队比赛颁发个人证书，由指导教师给出贡献排名后按scoring_matrix计算",
+                "entries": [
+                  {
+                    "name": "机器人校内赛（ROBOCON / ROBOCUP / MEI）",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "北京市机器人大赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "华北五省机器人大赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生机器人大赛ROBOMASTERS北部赛区",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "亚太学生机器人大赛国内选拔活动",
+                    "level": "国家级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国机器人大赛暨ROBOCUP公开赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国机器人大赛暨RoboCup机器人世界杯中国赛专项赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生机器人大赛ROBOCON机器马术仿真赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生机器人大赛ROBOCON仿生足式机器人挑战赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生机器人大赛ROBOCON颗粒归仓技能挑战赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生机器人大赛RoboMaster机甲大师超级对抗赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生机器人大赛ROBOMASTERS机甲大师全国单项赛/对抗赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "中国高校计算机大赛",
+                "name": "中国高校计算机大赛",
+                "entries": [
+                  {
+                    "name": "大数据挑战赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "团体程序设计天梯赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "移动应用创新赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "网络技术挑战赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "人工智能创意赛",
+                    "level": "市级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "计算机设计大赛",
+                "name": "计算机设计大赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国大学生计算机设计大赛北京市赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国大学生计算机设计大赛国赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "计算机博弈竞赛",
+                "name": "计算机博弈竞赛",
+                "entries": [
+                  {
+                    "name": "校内比赛",
+                    "level": "校级A",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国计算机博弈锦标赛",
+                    "level": "国家级C",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "软件设计与开发大赛",
+                "name": "软件设计与开发大赛",
+                "entries": [
+                  {
+                    "name": "全国软件专业人才设计与开发大赛（北京赛区）",
+                    "level": "校级A",
+                    "is_team": false
+                  },
+                  {
+                    "name": "全国软件专业人才设计与开发大赛（全国总决赛）",
+                    "level": "市级C",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "计算机应用大赛",
+                "name": "计算机应用大赛",
+                "entries": [
+                  {
+                    "name": "华北五省及港澳台计算机应用大赛校内选拔赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "华北五省及港澳台计算机应用大赛市赛",
+                    "level": "市级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "程序设计大赛",
+                "name": "程序设计大赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "全国高校智能交通创新与创业大赛",
+                "name": "全国高校智能交通创新与创业大赛",
+                "entries": [
+                  {
+                    "name": "全国高校智能交通创新与创业大赛",
+                    "level": "国家级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "电子设计竞赛",
+                "name": "电子设计竞赛",
+                "entries": [
+                  {
+                    "name": "校级程序设计",
+                    "level": "校级A",
+                    "is_team": false
+                  },
+                  {
+                    "name": "北京市大学生电子设计竞赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生电子设计竞赛（北京赛区）",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生电子设计竞赛（全国赛）",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "嵌入式系统电子设计竞赛",
+                "name": "嵌入式系统电子设计竞赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "大学生电子设计竞赛嵌入式系统邀请赛英特尔杯",
+                    "level": "国家级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "智能设计竞赛",
+                "name": "智能设计竞赛",
+                "entries": [
+                  {
+                    "name": "华为杯全国大学生智能设计竞赛",
+                    "level": "市级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "中国（国际）传感器创新创业大赛",
+                "name": "中国（国际）传感器创新创业大赛",
+                "entries": [
+                  {
+                    "name": "国赛",
+                    "level": "国家级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "工程训练综合能力竞赛",
+                "name": "工程训练综合能力竞赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "北京市大学生工程训练综合能力竞赛",
+                    "level": "市级C",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生工程训练综合能力竞赛",
+                    "level": "国家级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "西门子杯智能制造挑战赛",
+                "name": "西门子杯中国智能制造挑战赛（CIMC）",
+                "entries": [
+                  {
+                    "name": "西门子杯中国智能制造挑战赛（华北赛/全国初赛）",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "西门子杯中国智能制造挑战赛全国总决赛",
+                    "level": "国家级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "台达杯高校自动化设计大赛",
+                "name": "台达杯高校自动化设计大赛",
+                "entries": [
+                  {
+                    "name": "国赛",
+                    "level": "国家级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "台达杯国际高校绿色智能大赛",
+                "name": "台达杯国际高校绿色智能大赛",
+                "entries": [
+                  {
+                    "name": "国赛",
+                    "level": "国家级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "蓝桥杯",
+                "name": "蓝桥杯全国软件和信息技术专业人才大赛",
+                "entries": [
+                  {
+                    "name": "蓝桥杯全国软件和信息技术专业人才大赛市赛",
+                    "level": "校级A",
+                    "is_team": false
+                  },
+                  {
+                    "name": "蓝桥杯全国软件和信息技术专业人才大赛全国总决赛",
+                    "level": "市级B",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "北斗杯科技创新大赛",
+                "name": "北斗杯科技创新大赛",
+                "entries": [
+                  {
+                    "name": "北斗杯全国青少年科技创新大赛华北赛区",
+                    "level": "市级C",
+                    "is_team": false
+                  },
+                  {
+                    "name": "北斗杯全国青少年科技创新大赛北京市本科组",
+                    "level": "市级C",
+                    "is_team": false
+                  },
+                  {
+                    "name": "北斗杯全国青少年科技创新大赛（全国赛）",
+                    "level": "国家级C",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "信息安全竞赛",
+                "name": "信息安全竞赛",
+                "entries": [
+                  {
+                    "name": "全国大学生信息安全竞赛",
+                    "level": "市级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "节能减排竞赛",
+                "name": "节能减排竞赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "首届北京市大学生节能节水低碳减排社会实践与科技竞赛市赛",
+                    "level": "市级C",
+                    "is_team": true
+                  },
+                  {
+                    "name": "全国大学生节能减排社会实践与科技竞赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "飞行器设计挑战赛",
+                "name": "飞行器设计挑战赛",
+                "entries": [
+                  {
+                    "name": "中国国际飞行器设计挑战赛（分站赛）",
+                    "level": "市级C",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国国际飞行器设计挑战赛暨科研类全国航空航天模型锦标赛（全国赛）",
+                    "level": "国家级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "电脑鼠竞赛",
+                "name": "电脑鼠走迷宫竞赛",
+                "entries": [
+                  {
+                    "name": "校内赛",
+                    "level": "校级A",
+                    "is_team": false
+                  },
+                  {
+                    "name": "电脑鼠走迷宫北京赛区比赛",
+                    "level": "市级B",
+                    "is_team": false
+                  },
+                  {
+                    "name": "电脑鼠走迷宫全国赛",
+                    "level": "国家级C",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "ACM竞赛",
+                "name": "ACM竞赛",
+                "entries": [
+                  {
+                    "name": "International Collegiate Programming Contest（ACM-ICPC）",
+                    "level": "国家级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "长风杯大数据分析与挖掘竞赛",
+                "name": "长风杯全国大学生大数据分析与挖掘竞赛",
+                "entries": [
+                  {
+                    "name": "长风杯全国大学生大数据分析与挖掘竞赛分区赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "长风杯全国大学生大数据分析与挖掘竞赛全国总决赛",
+                    "level": "市级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "全国大学生冶金科技竞赛",
+                "name": "全国大学生冶金科技竞赛",
+                "entries": [
+                  {
+                    "name": "全国大学生冶金科技竞赛",
+                    "level": "市级C",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "工程实践与创新能力大赛",
+                "name": "工程实践与创新能力大赛",
+                "entries": [
+                  {
+                    "name": "工程实践与创新能力大赛（校级）",
+                    "level": "校级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "北京市大学生工程实践与创新能力大赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国大学生工程实践与创新能力大赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "欧冶云商杯编程算法比赛",
+                "name": "欧冶云商杯大学生编程&算法比赛",
+                "special_rule": "卓越奖视为一等奖，优胜奖视为二等奖",
+                "entries": [
+                  {
+                    "name": "欧冶云商杯大学生编程&算法比赛",
+                    "level": "校级A",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "中国高校智能机器人创意大赛",
+                "name": "中国高校智能机器人创意大赛",
+                "entries": [
+                  {
+                    "name": "中国高校智能机器人创意大赛北京市赛",
+                    "level": "市级B",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "全国大学生信息安全与对抗技术竞赛",
+                "name": "全国大学生信息安全与对抗技术竞赛",
+                "entries": [
+                  {
+                    "name": "全国大学生信息安全与对抗技术竞赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "汇川杯全国智能自动化创新大赛",
+                "name": "汇川杯全国智能自动化创新大赛",
+                "entries": [
+                  {
+                    "name": "汇川杯全国智能自动化创新大赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "睿抗机器人开发者大赛",
+                "name": "睿抗机器人开发者大赛（RAICOM）",
+                "entries": [
+                  {
+                    "name": "睿抗机器人开发者大赛（RAICOM）机器人创新应用仿真设计市赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "睿抗机器人开发者大赛（RAICOM）机器人创新应用仿真设计全国总决赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "中国大学生机械工程创新创意大赛",
+                "name": "中国大学生机械工程创新创意大赛",
+                "entries": [
+                  {
+                    "name": "中国大学生机械工程创新创意大赛矿源杯物流技术（起重机）创意赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              }
+            ]
+          },
+  
+          {
+            "id": "双创论文专利",
+            "name": "双创、论文、专利",
+            "competitions": [
+              {
+                "id": "摇篮杯挑战杯",
+                "name": "摇篮杯、挑战杯",
+                "entries": [
+                  {
+                    "name": "摇篮杯校内赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯（学术科技作品竞赛/创业计划竞赛）首都赛",
+                    "level": "市级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯红色实践专项首都赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯揭榜挂帅专项首都赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯青聚奇思黑科技专项赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯科技冬奥专项首都赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯青燃希望新时代希望工程公益服务专项",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯首都大学生课外学术科技作品竞赛青振京郊乡村振兴专项赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯首都大学生课外学术科技作品竞赛青学二十大红色专项赛",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯（学术科技作品竞赛/创业计划竞赛）国赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "挑战杯红色实践专项赛国赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "iCAN",
+                "name": "iCAN国际创新创业大赛",
+                "entries": [
+                  {
+                    "name": "iCAN国际创新创业大赛校内选拔赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "iCAN国际创新创业大赛北京赛区",
+                    "level": "市级B",
+                    "is_team": true
+                  },
+                  {
+                    "name": "iCAN国际创新创业大赛（全国赛）",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "互联网+",
+                "name": "中国国际互联网+大学生创新创业大赛",
+                "entries": [
+                  {
+                    "name": "互联网+校内赛",
+                    "level": "校级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国国际互联网+大学生创新创业大赛北京赛区",
+                    "level": "市级A",
+                    "is_team": true
+                  },
+                  {
+                    "name": "中国国际互联网+大学生创新创业大赛国赛",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "优秀创业团队",
+                "name": "优秀创业团队",
+                "entries": [
+                  {
+                    "name": "北京地区高校大学生优秀创业团队",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "高校科技创新成果展示推介会",
+                "name": "高校科技创新成果展示推介会",
+                "entries": [
+                  {
+                    "name": "高校科技创新成果展示推介会创新金奖",
+                    "level": "国家级A",
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "人文知识竞赛",
+                "name": "人文知识竞赛",
+                "entries": [
+                  {
+                    "name": "北京市人文知识竞赛",
+                    "level": "校级B",
+                    "is_team": false
+                  }
+                ]
+              },
+              {
+                "id": "论文",
+                "name": "论文",
+                "special_rule": "需署名北京科技大学；作者前10名（首位教师不参与排名）可加分；按scoring_matrix计算，参照加分细则1排名分配",
+                "entries": [
+                  {
+                    "name": "国际会议（EI未检）",
+                    "level": "校级A",
+                    "award_rank": "二等",
+                    "individual_score": 0.4,
+                    "is_team": true
+                  },
+                  {
+                    "name": "中文核心期刊",
+                    "level": "校级A",
+                    "award_rank": "一等",
+                    "individual_score": 0.5,
+                    "is_team": true
+                  },
+                  {
+                    "name": "国际会议（EI已检）",
+                    "level": "校级A",
+                    "award_rank": "一等",
+                    "individual_score": 0.5,
+                    "is_team": true
+                  },
+                  {
+                    "name": "EI期刊",
+                    "level": "市级B",
+                    "award_rank": "三等",
+                    "individual_score": 0.6,
+                    "is_team": true
+                  },
+                  {
+                    "name": "SCI三区/四区",
+                    "level": "市级B",
+                    "award_rank": "二等",
+                    "individual_score": 0.7,
+                    "is_team": true
+                  },
+                  {
+                    "name": "SCI一区/二区",
+                    "level": "市级B",
+                    "award_rank": "一等",
+                    "individual_score": 0.8,
+                    "is_team": true
+                  }
+                ]
+              },
+              {
+                "id": "专利软著",
+                "name": "专利、软著",
+                "special_rule": "需署名北京科技大学；作者前10名（首位教师不参与排名）可加分；按scoring_matrix计算",
+                "entries": [
+                  {
+                    "name": "软件著作权",
+                    "level": "校级A",
+                    "award_rank": "一等",
+                    "individual_score": 0.5,
+                    "is_team": true
+                  },
+                  {
+                    "name": "实用新型专利",
+                    "level": "市级B",
+                    "award_rank": "二等",
+                    "individual_score": 0.7,
+                    "is_team": true
+                  },
+                  {
+                    "name": "发明专利",
+                    "level": "市级B",
+                    "award_rank": "一等",
+                    "individual_score": 0.8,
+                    "is_team": true
+                  }
+                ]
+              }
+            ]
+          }
+  
+        ]
+      },
+  
+      {
+        "id": "其他",
+        "name": "其他",
+        "subcategories": [
+          {
+            "id": "校际交流",
+            "name": "校际交流",
+            "special_scoring": {
+              "国内交流_成绩前40%": 1.0,
+              "国内交流_成绩后60%": 0.5,
+              "海外/境外交流": 1.0,
+              "备注": "如只有一个人交流，则参考在双方学校的成绩酌情考虑加分"
+            }
+          },
+          {
+            "id": "社会实践",
+            "name": "社会实践",
+            "competitions": [
+              {
+                "name": "首都社会实践思政论文",
+                "level": "校级B",
+                "is_team": false
+              }
+            ]
+          },
+          {
+            "id": "技能技术",
+            "name": "技能技术",
+            "competitions": [
+              {
+                "name": "全国大学生职业规划大赛市级",
+                "level": "市级C",
+                "is_team": false
+              }
+            ]
+          }
+        ]
+      }
+  
+    ]
+  }
+  

@@ -1,0 +1,234 @@
+{
+  "student_name": "马金瑶",
+  "generated_at": "2026-03-26T06:15:56",
+  "total_certificates_found": 4,
+  "score_summary": {
+    "total_score_min": 0.425,
+    "total_score_max": 0.7,
+    "total_score_summary": "总加分区间：[0.425, 0.7]",
+    "effective_count": 1,
+    "skipped_count": 3,
+    "effective_entries": [
+      {
+        "certificate_name": "2024年北京市大学生工程实践与创新能力大赛暨2025年中国大学生工程实践与创新能力大赛选拔赛（太阳能电动车赛项）",
+        "source_file": "test_2.json",
+        "year": "2025",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "competition_id": "工程实践与创新能力大赛",
+        "score_min": 0.425,
+        "score_max": 0.7
+      }
+    ],
+    "skipped_entries": [
+      {
+        "source_file": "test_1.json",
+        "certificate_name": "Knowledge Embedding With Graph Convolutional Network and Bidirectional Gated Recurrent Unit for Fault Diagnosis",
+        "reason": "scoring_type=unknown，奖项等级缺失或无法匹配",
+        "note": "scoring_matrix 中 level='市级C', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+      },
+      {
+        "source_file": "test_11.json",
+        "certificate_name": "Knowledge Graph Embedding With Graph Convolutional Network and Bidirectional Gated Recurrent Unit for Fault Diagnosis of Industrial Processes",
+        "reason": "scoring_type=unknown，奖项等级缺失或无法匹配",
+        "note": "scoring_matrix 中 level='国家级B', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+      },
+      {
+        "source_file": "test_9.json",
+        "certificate_name": "Knowledge Graph Embedding With Graph Convolutional Network and Bidirectional Gated Recurrent Unit for Fault Diagnosis of Industrial Processes",
+        "reason": "scoring_type=unknown，奖项等级缺失或无法匹配",
+        "note": "scoring_matrix 中 level='国家级B', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+      }
+    ],
+    "dedup_notes": [],
+    "cap_notes": [],
+    "warnings": [
+      "⚠ 总分为估算区间，最终以学院学术委员会审核为准。",
+      "⚠ 同一科技作品获两个不同奖项仅取最高分，需人工核查（系统未自动识别）。",
+      "⚠ 论文/专利/软著需核查署名单位为「北京科技大学」。",
+      "⚠ 匹配置信度为「低」的条目请人工复核后再计分。"
+    ]
+  },
+  "score_details": [
+    {
+      "source_file": "test_1.json",
+      "certificate_type": "Paper",
+      "certificate_name": "Knowledge Embedding With Graph Convolutional Network and Bidirectional Gated Recurrent Unit for Fault Diagnosis",
+      "issue_date": "2025-01-17",
+      "issuing_authority": [],
+      "students_in_cert": [
+        "马金瑶"
+      ],
+      "advisors_in_cert": [
+        "董洁",
+        "彭开香"
+      ],
+      "student_name": "马金瑶",
+      "student_rank_in_team": 1,
+      "total_students_in_cert": 1,
+      "matched_rule": {
+        "display_name": "Interdisciplinary Contest In Modeling（美赛ICM）",
+        "competition_id": "数学建模大赛",
+        "competition_name": "数学建模大赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "学科竞赛",
+        "level": "市级C",
+        "is_team": true,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.2143,
+        "match_confidence": "低（请人工复核）"
+      },
+      "award_level_raw": null,
+      "award_level_normalized": null,
+      "scoring": {
+        "scoring_type": "unknown",
+        "individual_max": null,
+        "team_total": null,
+        "score_range_min": null,
+        "score_range_max": null,
+        "score_fixed": null,
+        "note": "scoring_matrix 中 level='市级C', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+      },
+      "summary": "[团队] Interdisciplinary Contest In Modeling（美赛ICM） (市级C) · 团队总分 None ⚠ scoring_matrix 中 level='市级C', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+    },
+    {
+      "source_file": "test_11.json",
+      "certificate_type": "Paper",
+      "certificate_name": "Knowledge Graph Embedding With Graph Convolutional Network and Bidirectional Gated Recurrent Unit for Fault Diagnosis of Industrial Processes",
+      "issue_date": "2025-03-01",
+      "issuing_authority": [],
+      "students_in_cert": [
+        "马金瑶"
+      ],
+      "advisors_in_cert": [],
+      "student_name": "马金瑶",
+      "student_rank_in_team": 1,
+      "total_students_in_cert": 1,
+      "matched_rule": {
+        "display_name": "International Collegiate Programming Contest（ACM-ICPC）",
+        "competition_id": "ACM竞赛",
+        "competition_name": "ACM竞赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "科技竞赛",
+        "level": "国家级B",
+        "is_team": true,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.2177,
+        "match_confidence": "低（请人工复核）"
+      },
+      "award_level_raw": null,
+      "award_level_normalized": null,
+      "scoring": {
+        "scoring_type": "unknown",
+        "individual_max": null,
+        "team_total": null,
+        "score_range_min": null,
+        "score_range_max": null,
+        "score_fixed": null,
+        "note": "scoring_matrix 中 level='国家级B', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+      },
+      "summary": "[团队] International Collegiate Programming Contest（ACM-ICPC） (国家级B) · 团队总分 None ⚠ scoring_matrix 中 level='国家级B', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+    },
+    {
+      "source_file": "test_2.json",
+      "certificate_type": "Competition",
+      "certificate_name": "2024年北京市大学生工程实践与创新能力大赛暨2025年中国大学生工程实践与创新能力大赛选拔赛（太阳能电动车赛项）",
+      "issue_date": "2025-03",
+      "issuing_authority": [
+        "北京市教育委员会"
+      ],
+      "students_in_cert": [
+        "马金瑶",
+        "蒋金桦",
+        "张良缘",
+        "岳晓卓"
+      ],
+      "advisors_in_cert": [
+        "张希琛",
+        "张一豆"
+      ],
+      "student_name": "马金瑶",
+      "student_rank_in_team": 1,
+      "total_students_in_cert": 4,
+      "matched_rule": {
+        "display_name": "北京市大学生工程实践与创新能力大赛",
+        "competition_id": "工程实践与创新能力大赛",
+        "competition_name": "工程实践与创新能力大赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "科技竞赛",
+        "level": "市级B",
+        "is_team": true,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.4595,
+        "match_confidence": "中"
+      },
+      "award_level_raw": "二等奖",
+      "award_level_normalized": "二等",
+      "scoring": {
+        "scoring_type": "matrix_team",
+        "individual_max": 0.7,
+        "team_total": 1.7,
+        "score_range_min": 0.425,
+        "score_range_max": 0.7,
+        "score_fixed": null,
+        "note": null
+      },
+      "summary": "[团队] 北京市大学生工程实践与创新能力大赛 (市级B) · 二等奖 · 团队总分 1.7 · 马金瑶 排第 1/4 位，可加分区间 [0.425, 0.7]"
+    },
+    {
+      "source_file": "test_9.json",
+      "certificate_type": "Paper",
+      "certificate_name": "Knowledge Graph Embedding With Graph Convolutional Network and Bidirectional Gated Recurrent Unit for Fault Diagnosis of Industrial Processes",
+      "issue_date": "2025-02-28",
+      "issuing_authority": [],
+      "students_in_cert": [
+        "马金瑶"
+      ],
+      "advisors_in_cert": [
+        "董洁",
+        "彭开香"
+      ],
+      "student_name": "马金瑶",
+      "student_rank_in_team": 1,
+      "total_students_in_cert": 1,
+      "matched_rule": {
+        "display_name": "International Collegiate Programming Contest（ACM-ICPC）",
+        "competition_id": "ACM竞赛",
+        "competition_name": "ACM竞赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "科技竞赛",
+        "level": "国家级B",
+        "is_team": true,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.2177,
+        "match_confidence": "低（请人工复核）"
+      },
+      "award_level_raw": null,
+      "award_level_normalized": null,
+      "scoring": {
+        "scoring_type": "unknown",
+        "individual_max": null,
+        "team_total": null,
+        "score_range_min": null,
+        "score_range_max": null,
+        "score_fixed": null,
+        "note": "scoring_matrix 中 level='国家级B', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+      },
+      "summary": "[团队] International Collegiate Programming Contest（ACM-ICPC） (国家级B) · 团队总分 None ⚠ scoring_matrix 中 level='国家级B', rank='None' 无对应数据（可能为校级三等、或奖项等级未能识别）"
+    }
+  ],
+  "global_rules_reminder": [
+    "加分必须查看获奖证书原件并上交复印件及保研加分申请表",
+    "拟获奖项不能加分",
+    "同年度同类别不同级别奖项按最高级加分",
+    "同一个科技作品获得两个不同奖项，只加最高分",
+    "亚广联大学生机器人大赛ABU RoboCon、机甲大师-超级对抗赛、RoboCup国赛为团队比赛但颁发个人证书，由团队指导教师给出自动化学院成员贡献排名，以自动化学院成员为团队参照scoring_matrix进行加分",
+    "论文、专利、软著需署名北京科技大学，且作者前10名（作者中首位教师不参与排名）可以加分，加分参照scoring_matrix；原则上不认定署名非北京科技大学或北京科技大学顺德创新学院（研究生院）的论文、专利、软著",
+    "艺术类加分最高累加不超过1分；荣誉称号类加分最高累加不超过1分",
+    "应征入伍类取相应奖项级别最高分加分",
+    "证书有效期及加分截止时间根据实际保研加分工作进度设置，具体解释权归学院学术委员会所有"
+  ]
+}

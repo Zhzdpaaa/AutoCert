@@ -1,0 +1,32 @@
+{
+  "certificate_type": "Software Copyright",
+  "name": "基于HSL色彩空间的遥感成像场景分类器软件 V1.0",
+  "students": [
+    "杨小申",
+    "朱丽静",
+    "李金龙"
+  ],
+  "advisors": [
+    "刘皓挺"
+  ],
+  "team_name": null,
+  "issue_date": "2025-06-26",
+  "issuing_authority": [
+    "中华人民共和国国家版权局"
+  ],
+  "award_level": null,
+  "_correction_meta": {
+    "corrections_log": [
+      "[CORRECT-S] '刘皓然' → '刘皓挺' (距离=1, 匹配字段=chinese_name)",
+      "[MOVE] '刘皓然' (→'刘皓挺') 在 people_name.json 中属于 advisors，已从 students 移至 advisors"
+    ],
+    "warnings_need_review": [
+      {
+        "field": "students→advisors",
+        "original_name": "刘皓然",
+        "corrected_name": "刘皓挺",
+        "message": "'刘皓然' 在 people_name.json 中属于 advisors，已自动移至 advisors 字段"
+      }
+    ]
+  }
+}

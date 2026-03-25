@@ -1,0 +1,32 @@
+{
+  "certificate_type": "Software Copyright",
+  "name": "同时相红外遥感模拟成像数据生成软件",
+  "students": [
+    "杨小申",
+    "朱丽静",
+    "赵禹喆"
+  ],
+  "advisors": [
+    "刘皓挺"
+  ],
+  "team_name": null,
+  "issue_date": "2025-07-21",
+  "issuing_authority": [
+    "中华人民共和国国家版权局"
+  ],
+  "award_level": null,
+  "_correction_meta": {
+    "corrections_log": [
+      "[CORRECT-S] '刘皓超' → '刘皓挺' (距离=1, 匹配字段=chinese_name)",
+      "[MOVE] '刘皓超' (→'刘皓挺') 在 people_name.json 中属于 advisors，已从 students 移至 advisors"
+    ],
+    "warnings_need_review": [
+      {
+        "field": "students→advisors",
+        "original_name": "刘皓超",
+        "corrected_name": "刘皓挺",
+        "message": "'刘皓超' 在 people_name.json 中属于 advisors，已自动移至 advisors 字段"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+    "students": [
+        {
+            "chinese_name": "马金瑶",
+            "english_name": "Jinyao Ma",
+            "pinyin": "Ma Jinyao",
+            "student_id": null
+        },
+        {
+            "chinese_name": "蒋金桦",
+            "english_name": "Jinhua Jiang",
+            "pinyin": "Jiang Jinhua",
+            "student_id": null
+        },
+        {
+            "chinese_name": "张良缘",
+            "english_name": "Liangyuan Zhang",
+            "pinyin": "Zhang Liangyuan",
+            "student_id": null
+        },
+        {
+            "chinese_name": "岳晓卓",
+            "english_name": "Xiaozhuo Yue",
+            "pinyin": "Yue Xiaozhuo",
+            "student_id": null
+        },
+        {
+            "chinese_name": "袁启轩",
+            "english_name": "Qixuan Yuan",
+            "pinyin": "Yuan Qixuan",
+            "student_id": null
+        },
+        {
+            "chinese_name": "陈亚龙",
+            "english_name": "Yalong Chen",
+            "pinyin": "Chen Yalong",
+            "student_id": null
+        },
+        {
+            "chinese_name": "南珏",
+            "english_name": "Jue Nan",
+            "pinyin": "Nan Jue",
+            "student_id": null
+        },
+        {
+            "chinese_name": "翁锦瑞",
+            "english_name": "Jinrui Weng",
+            "pinyin": "Weng Jinrui",
+            "student_id": null
+        },
+        {
+            "chinese_name": "杨小申",
+            "english_name": "Xiaoshen Yang",
+            "pinyin": "Yang Xiaoshen",
+            "student_id": null
+        },
+        {
+            "chinese_name": "沈俊逸",
+            "english_name": "Junyi Shen",
+            "pinyin": "Shen Junyi",
+            "student_id": null
+        },
+        {
+            "chinese_name": "陈慧宇",
+            "english_name": "Huiyu Chen",
+            "pinyin": "Chen Huiyu",
+            "student_id": null
+        },
+        {
+            "chinese_name": "乔硕",
+            "english_name": "Shuo Qiao",
+            "pinyin": "Qiao Shuo",
+            "student_id": null
+        },
+        {
+            "chinese_name": "张广铁",
+            "english_name": "Guangtie Zhang",
+            "pinyin": "Zhang Guangtie",
+            "student_id": null
+        },
+        {
+            "chinese_name": "胡天一",
+            "english_name": "Tianyi Hu",
+            "pinyin": "Hu Tianyi",
+            "student_id": null
+        },
+        {
+            "chinese_name": "朱丽静",
+            "english_name": "Lijing Zhu",
+            "pinyin": "Zhu Lijing",
+            "student_id": null
+        },
+        {
+            "chinese_name": "李金龙",
+            "english_name": "Jinlong Li",
+            "pinyin": "Li Jinlong",
+            "student_id": null
+        },
+        {
+            "chinese_name": "赵禹喆",
+            "english_name": "Yuzhe Zhao",
+            "pinyin": "Zhao Yuzhe",
+            "student_id": null
+        }
+    ],
+    "advisors": [
+        {
+            "chinese_name": "李擎",
+            "english_name": "Qing Li",
+            "pinyin": "Li Qing"
+        },
+        {
+            "chinese_name": "彭开香",
+            "english_name": "Kaixiang Peng",
+            "pinyin": "Peng Kaixiang"
+        },
+        {
+            "chinese_name": "董洁",
+            "english_name": "Jie Dong",
+            "pinyin": "Dong Jie"
+        },
+        {
+            "chinese_name": "刘皓挺",
+            "english_name": "Haoting Liu",
+            "pinyin": "Liu Haoting"
+        },
+        {
+            "chinese_name": "张希琛",
+            "english_name": "Xichen Zhang",
+            "pinyin": "Zhang Xichen"
+        },
+        {
+            "chinese_name": "张一豆",
+            "english_name": "Yidou Zhang",
+            "pinyin": "Zhang Yidou"
+        },
+        {
+            "chinese_name": "徐立业",
+            "english_name": "Liye Xu",
+            "pinyin": "Xu Liye"
+        },
+        {
+            "chinese_name": "李辉",
+            "english_name": "Hui Li",
+            "pinyin": "Li Hui"
+        },
+        {
+            "chinese_name": "任莹莹",
+            "english_name": "Yingying Ren",
+            "pinyin": "Ren Yingying"
+        }
+    ]
+  }
+  

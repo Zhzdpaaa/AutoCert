@@ -1,0 +1,99 @@
+{
+  "certificate_type": "Paper",
+  "name": "SAVI-GAN: An Self-attention Method GAN Using Pix2Pix for Visible to Infrared Image Translation",
+  "students": [
+    "杨小申"
+  ],
+  "advisors": [
+    "刘皓挺",
+    "李辉",
+    "李擎"
+  ],
+  "team_name": null,
+  "issue_date": null,
+  "issuing_authority": [],
+  "award_level": null,
+  "_correction_meta": {
+    "corrections_log": [
+      "[CORRECT-S] 'Xiaoshen Yang' → '杨小申' (距离=0, 匹配字段=english_name)",
+      "[CORRECT-S] 'Haoting Liu' → '刘皓挺' (距离=0, 匹配字段=english_name)",
+      "[MOVE] 'Haoting Liu' (→'刘皓挺') 在 people_name.json 中属于 advisors，已从 students 移至 advisors",
+      "[CORRECT-S] 'Hao Li' → '李辉' (距离=2, 匹配字段=english_name)",
+      "[MOVE] 'Hao Li' (→'李辉') 在 people_name.json 中属于 advisors，已从 students 移至 advisors",
+      "[REMOVE-S] 'Kai Ding' → 已从 students 移除（未找到匹配）",
+      "[REMOVE-S] 'Xiya Chang' → 已从 students 移除（未找到匹配）",
+      "[REMOVE-S] 'Haiguang Li' → 已从 students 移除（未找到匹配）",
+      "[REMOVE-S] 'Xiaoling Ai' → 已从 students 移除（未找到匹配）",
+      "[REMOVE-S] 'Qingwen Hou' → 已从 students 移除（未找到匹配）",
+      "[CORRECT-S] 'Qing Li' → '李擎' (距离=0, 匹配字段=english_name)",
+      "[MOVE] 'Qing Li' (→'李擎') 在 people_name.json 中属于 advisors，已从 students 移至 advisors"
+    ],
+    "warnings_need_review": [
+      {
+        "field": "students→advisors",
+        "original_name": "Haoting Liu",
+        "corrected_name": "刘皓挺",
+        "message": "'Haoting Liu' 在 people_name.json 中属于 advisors，已自动移至 advisors 字段"
+      },
+      {
+        "field": "students→advisors",
+        "original_name": "Hao Li",
+        "corrected_name": "李辉",
+        "message": "'Hao Li' 在 people_name.json 中属于 advisors，已自动移至 advisors 字段"
+      },
+      {
+        "field": "students→advisors",
+        "original_name": "Qing Li",
+        "corrected_name": "李擎",
+        "message": "'Qing Li' 在 people_name.json 中属于 advisors，已自动移至 advisors 字段"
+      }
+    ],
+    "removed_from_students": [
+      {
+        "original_name": "Kai Ding",
+        "reason": "在 people_name.json 中未找到匹配项 (最近编辑距离=3)",
+        "nearest_candidates": [
+          "李擎",
+          "董洁",
+          "李辉"
+        ]
+      },
+      {
+        "original_name": "Xiya Chang",
+        "reason": "在 people_name.json 中未找到匹配项 (最近编辑距离=5)",
+        "nearest_candidates": [
+          "陈慧宇",
+          "张希琛",
+          "张一豆"
+        ]
+      },
+      {
+        "original_name": "Haiguang Li",
+        "reason": "在 people_name.json 中未找到匹配项 (最近编辑距离=5)",
+        "nearest_candidates": [
+          "李金龙",
+          "李擎",
+          "刘皓挺"
+        ]
+      },
+      {
+        "original_name": "Xiaoling Ai",
+        "reason": "在 people_name.json 中未找到匹配项 (最近编辑距离=5)",
+        "nearest_candidates": [
+          "李金龙",
+          "刘皓挺",
+          "李擎"
+        ]
+      },
+      {
+        "original_name": "Qingwen Hou",
+        "reason": "在 people_name.json 中未找到匹配项 (最近编辑距离=6)",
+        "nearest_candidates": [
+          "李擎",
+          "沈俊逸",
+          "陈慧宇"
+        ]
+      }
+    ]
+  }
+}
