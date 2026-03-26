@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**智能证书识别与保研加分计算系统**
+## **智能证书识别与保研加分计算系统**
 
 *Automated Certificate Recognition and Graduate Recommendation Score Calculator*
 
