@@ -1,0 +1,199 @@
+{
+  "student_name": "钟祚栋",
+  "validation_time": "2026-03-30T17:37:28",
+  "overall_status": "passed_with_warnings",
+  "error_count": 0,
+  "warning_count": 1,
+  "confirmed_total_score": 3.7,
+  "score_breakdown": [
+    {
+      "award_name": "2024年北京市大学生集成电路设计大赛（数字组）",
+      "original_score": 0.7,
+      "final_score": 0.7,
+      "category": "学科竞赛、科技竞赛、创新创业竞赛",
+      "year": "2024"
+    },
+    {
+      "award_name": "2024睿抗机器人开发者大赛（RAICOM）全国总决赛（魔力元宝竞赛项目）",
+      "original_score": 0.6,
+      "final_score": 0.6,
+      "category": "学科竞赛、科技竞赛、创新创业竞赛",
+      "year": "2024"
+    },
+    {
+      "award_name": "优秀三好学生",
+      "original_score": 0.3,
+      "final_score": 0.3,
+      "category": "荣誉称号",
+      "year": "2023"
+    },
+    {
+      "award_name": "第三十九届全国部分地区大学生物理竞赛(非物理类A组)",
+      "original_score": 0.6,
+      "final_score": 0.6,
+      "category": "学科竞赛、科技竞赛、创新创业竞赛",
+      "year": "2023"
+    },
+    {
+      "award_name": "第十八届iCAN大学生创新创业大赛(北京赛区)",
+      "original_score": 0.4,
+      "final_score": 0.4,
+      "category": "学科竞赛、科技竞赛、创新创业竞赛",
+      "year": "2024"
+    },
+    {
+      "award_name": "优秀学生干部",
+      "original_score": 0.3,
+      "final_score": 0.3,
+      "category": "荣誉称号",
+      "year": "2023"
+    },
+    {
+      "award_name": "2024年（第17届）中国大学生计算机设计大赛",
+      "original_score": 0.8,
+      "final_score": 0.8,
+      "category": "学科竞赛、科技竞赛、创新创业竞赛",
+      "year": "2024"
+    }
+  ],
+  "global_issues": [],
+  "award_validations": [
+    {
+      "system_award_name": "2024年北京市大学生集成电路设计大赛（数字组）",
+      "student_award_name": "2024 年北京市大学生集成电路设计大赛数字组",
+      "match_similarity": 1.0,
+      "is_matched": true,
+      "is_valid": true,
+      "confirmed_score": 0.7,
+      "system_scoring": {
+        "score_min": 0.0,
+        "score_max": 0.7,
+        "team_total": 1.7,
+        "individual_max": 0.7
+      },
+      "issues": [
+        {
+          "issue_type": "info",
+          "category": "总分未用完",
+          "award_name": "2024年北京市大学生集成电路设计大赛（数字组）",
+          "message": "团队分数未完全分配（剩余 0.3 分）",
+          "expected": 1.7,
+          "actual": 1.4,
+          "suggestion": "这是允许的，但建议确认是否故意放弃部分加分"
+        }
+      ]
+    },
+    {
+      "system_award_name": "2024睿抗机器人开发者大赛（RAICOM）全国总决赛（魔力元宝竞赛项目）",
+      "student_award_name": "“2024 睿抗机器人开发者大赛(RAICOM)全国总决赛“魔力元宝竞赛项目",
+      "match_similarity": 1.0,
+      "is_matched": true,
+      "is_valid": true,
+      "confirmed_score": 0.6,
+      "system_scoring": {
+        "score_min": 0.0,
+        "score_max": 0.8,
+        "team_total": 3.2,
+        "individual_max": 1.3
+      },
+      "issues": []
+    },
+    {
+      "system_award_name": "优秀三好学生",
+      "student_award_name": "校优秀三好学生",
+      "match_similarity": 1.0,
+      "is_matched": true,
+      "is_valid": true,
+      "confirmed_score": 0.3,
+      "system_scoring": {
+        "score_min": 0.3,
+        "score_max": 0.3,
+        "team_total": null,
+        "individual_max": 0.3
+      },
+      "issues": []
+    },
+    {
+      "system_award_name": "第三十九届全国部分地区大学生物理竞赛(非物理类A组)",
+      "student_award_name": "第三十九届全国部分地区大学生物理竞赛（非物理类 A 组）",
+      "match_similarity": 1.0,
+      "is_matched": true,
+      "is_valid": true,
+      "confirmed_score": 0.6,
+      "system_scoring": {
+        "score_min": 0.6,
+        "score_max": 0.6,
+        "team_total": null,
+        "individual_max": 0.6
+      },
+      "issues": []
+    },
+    {
+      "system_award_name": "第十八届iCAN大学生创新创业大赛(北京赛区)",
+      "student_award_name": "第 18 届 iCAN 大学生创新创业大赛（北京赛区）",
+      "match_similarity": 0.9595,
+      "is_matched": true,
+      "is_valid": true,
+      "confirmed_score": 0.4,
+      "system_scoring": {
+        "score_min": 0.0,
+        "score_max": 0.8,
+        "team_total": 2.0,
+        "individual_max": 0.8
+      },
+      "issues": []
+    },
+    {
+      "system_award_name": "优秀学生干部",
+      "student_award_name": "校优秀学生干部",
+      "match_similarity": 0.8571,
+      "is_matched": true,
+      "is_valid": true,
+      "confirmed_score": 0.3,
+      "system_scoring": {
+        "score_min": 0.3,
+        "score_max": 0.3,
+        "team_total": null,
+        "individual_max": 0.3
+      },
+      "issues": [
+        {
+          "issue_type": "warning",
+          "category": "年份不一致",
+          "award_name": "优秀学生干部",
+          "message": "年份信息不一致，请确认",
+          "expected": "2023",
+          "actual": "2024",
+          "suggestion": ""
+        }
+      ]
+    },
+    {
+      "system_award_name": "2024年（第17届）中国大学生计算机设计大赛",
+      "student_award_name": "2024 年（第 17 届）中国大学生计算机设计大赛",
+      "match_similarity": 0.8559,
+      "is_matched": true,
+      "is_valid": true,
+      "confirmed_score": 0.8,
+      "system_scoring": {
+        "score_min": 0.0,
+        "score_max": 0.8,
+        "team_total": 3.2,
+        "individual_max": 1.3
+      },
+      "issues": []
+    }
+  ],
+  "dedup_notes": [],
+  "system_warnings": [
+    "加分必须查看获奖证书原件并上交复印件及保研加分申请表",
+    "拟获奖项不能加分",
+    "同年度同类别不同级别奖项按最高级加分",
+    "同一个科技作品获得两个不同奖项，只加最高分",
+    "亚广联大学生机器人大赛ABU RoboCon、机甲大师-超级对抗赛、RoboCup国赛为团队比赛但颁发个人证书，由团队指导教师给出自动化学院成员贡献排名，以自动化学院成员为团队参照scoring_matrix进行加分",
+    "论文、专利、软著需署名北京科技大学，且作者前10名（作者中首位教师不参与排名）可以加分，加分参照scoring_matrix；原则上不认定署名非北京科技大学或北京科技大学顺德创新学院（研究生院）的论文、专利、软著",
+    "艺术类加分最高累加不超过1分；荣誉称号类加分最高累加不超过1分",
+    "应征入伍类取相应奖项级别最高分加分",
+    "证书有效期及加分截止时间根据实际保研加分工作进度设置，具体解释权归学院学术委员会所有"
+  ]
+}

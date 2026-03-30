@@ -394,7 +394,7 @@
                   },
                   {
                     "name": "全国大学生数学竞赛（决赛）",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": false
                   }
                 ]
@@ -503,7 +503,7 @@
                   },
                   {
                     "name": "中国机器人及人工智能全国总决赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -590,7 +590,7 @@
                   },
                   {
                     "name": "全国智能汽车比赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -633,42 +633,42 @@
                   },
                   {
                     "name": "亚太学生机器人大赛国内选拔活动",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   },
                   {
                     "name": "中国机器人大赛暨ROBOCUP公开赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   },
                   {
                     "name": "中国机器人大赛暨RoboCup机器人世界杯中国赛专项赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   },
                   {
                     "name": "全国大学生机器人大赛ROBOCON机器马术仿真赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   },
                   {
                     "name": "全国大学生机器人大赛ROBOCON仿生足式机器人挑战赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   },
                   {
                     "name": "全国大学生机器人大赛ROBOCON颗粒归仓技能挑战赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   },
                   {
                     "name": "全国大学生机器人大赛RoboMaster机甲大师超级对抗赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   },
                   {
                     "name": "全国大学生机器人大赛ROBOMASTERS机甲大师全国单项赛/对抗赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -720,7 +720,7 @@
                   },
                   {
                     "name": "中国大学生计算机设计大赛国赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -816,7 +816,7 @@
                   },
                   {
                     "name": "全国大学生电子设计竞赛（全国赛）",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -982,7 +982,7 @@
                   },
                   {
                     "name": "全国大学生节能减排社会实践与科技竞赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -1078,7 +1078,7 @@
                   },
                   {
                     "name": "中国大学生工程实践与创新能力大赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -1112,7 +1112,7 @@
                 "entries": [
                   {
                     "name": "全国大学生信息安全与对抗技术竞赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -1123,7 +1123,7 @@
                 "entries": [
                   {
                     "name": "汇川杯全国智能自动化创新大赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -1139,7 +1139,7 @@
                   },
                   {
                     "name": "睿抗机器人开发者大赛（RAICOM）机器人创新应用仿真设计全国总决赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -1150,7 +1150,7 @@
                 "entries": [
                   {
                     "name": "中国大学生机械工程创新创意大赛矿源杯物流技术（起重机）创意赛",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -1239,7 +1239,7 @@
                   },
                   {
                     "name": "iCAN国际创新创业大赛（全国赛）",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -1271,7 +1271,7 @@
                 "entries": [
                   {
                     "name": "北京地区高校大学生优秀创业团队",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]
@@ -1282,7 +1282,7 @@
                 "entries": [
                   {
                     "name": "高校科技创新成果展示推介会创新金奖",
-                    "level": "国家级A",
+                    "level": "国家级B",
                     "is_team": true
                   }
                 ]

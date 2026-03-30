@@ -1,0 +1,26 @@
+{
+  "certificate_type": "Competition",
+  "name": "第十八届iCAN大学生创新创业大赛(北京赛区)",
+  "students": [
+    "钟祚栋",
+    "姜证朗",
+    "马幸天",
+    "张珈豪",
+    "刘康乾"
+  ],
+  "advisors": [
+    "刘志杰",
+    "侯静怡"
+  ],
+  "team_name": null,
+  "issue_date": "2024",
+  "issuing_authority": [
+    "iCAN大学生创新创业大赛组织委员会"
+  ],
+  "award_level": "一等奖",
+  "_correction_meta": {
+    "corrections_log": [
+      "[CORRECT-S] '姜证明' → '姜证朗' (距离=1, 匹配字段=chinese_name)"
+    ]
+  }
+}

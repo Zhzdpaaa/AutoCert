@@ -1,0 +1,583 @@
+{
+  "student_name": "钟祚栋",
+  "generated_at": "2026-03-30T17:29:46",
+  "total_certificates_found": 7,
+  "score_summary": {
+    "total_score_min": 1.2,
+    "total_score_max": 4.3,
+    "total_score_summary": "总加分区间：[1.2, 4.3]",
+    "effective_count": 7,
+    "skipped_count": 0,
+    "effective_entries": [
+      {
+        "certificate_name": "2024年北京市大学生集成电路设计大赛（数字组）",
+        "source_file": "2024年北京市大学生集成电路设计大赛二等奖（团体排名为第2位）.json",
+        "year": "2024",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "score_min": 0.0,
+        "score_max": 0.7
+      },
+      {
+        "certificate_name": "2024年（第17届）中国大学生计算机设计大赛",
+        "source_file": "2024年（第17届）中国大学生计算机设计大赛二等奖（团体排名为第4位）.json",
+        "year": "2024",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "score_min": 0.0,
+        "score_max": 0.8
+      },
+      {
+        "certificate_name": "2024睿抗机器人开发者大赛（RAICOM）全国总决赛（魔力元宝竞赛项目）",
+        "source_file": "2024睿抗机器人开发者大赛全国总决赛CAIR魔力元宝赛项二等奖（团体排名为第4位）.json",
+        "year": "2024",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "score_min": 0.0,
+        "score_max": 0.8
+      },
+      {
+        "certificate_name": "第三十九届全国部分地区大学生物理竞赛(非物理类A组)",
+        "source_file": "第三十九届全国部分地区大学生物理竞赛（非物理类A组）三等奖.json",
+        "year": "2023",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "score_min": 0.6,
+        "score_max": 0.6
+      },
+      {
+        "certificate_name": "第十八届iCAN大学生创新创业大赛(北京赛区)",
+        "source_file": "第十八届iCAN大学生创新创业大赛(北京赛区)一等奖（团体排名为第1位）.json",
+        "year": "2024",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "score_min": 0.0,
+        "score_max": 0.8
+      },
+      {
+        "certificate_name": "优秀三好学生",
+        "source_file": "北京科技大学优秀三好学生.json",
+        "year": "2023",
+        "category": "荣誉称号",
+        "score_min": 0.3,
+        "score_max": 0.3
+      },
+      {
+        "certificate_name": "优秀学生干部",
+        "source_file": "北京科技大学优秀学生干部.json",
+        "year": "2023",
+        "category": "荣誉称号",
+        "score_min": 0.3,
+        "score_max": 0.3
+      }
+    ],
+    "skipped_entries": [],
+    "dedup_notes": [],
+    "cap_notes": [],
+    "warnings": [
+      "⚠ 总分为估算区间，最终以学院学术委员会审核为准。",
+      "⚠ 同一科技作品获两个不同奖项仅取最高分，需人工核查。",
+      "⚠ 论文/专利/软著需核查署名单位为「北京科技大学」。"
+    ]
+  },
+  "score_details": [
+    {
+      "source_file": "2024年北京市大学生集成电路设计大赛二等奖（团体排名为第2位）.json",
+      "certificate_type": "Competition",
+      "certificate_name": "2024年北京市大学生集成电路设计大赛（数字组）",
+      "issue_date": "2024",
+      "issuing_authority": [],
+      "students_in_cert": [
+        "叶钟宏",
+        "钟祚栋"
+      ],
+      "advisors_in_cert": [
+        "李春雷",
+        "董冀媛"
+      ],
+      "student_name": "钟祚栋",
+      "student_rank_in_team": 2,
+      "total_students_in_cert": 2,
+      "level_detection": {
+        "detected_level": "未知",
+        "keyword_found": "",
+        "candidates_top3": [
+          {
+            "display_name": "北京市大学生集成电路设计大赛",
+            "rule_level": "省/市级",
+            "text_sim": 1.0,
+            "level_mod": 0.0,
+            "final_score": 1.0
+          },
+          {
+            "display_name": "北京市大学生电子设计竞赛",
+            "rule_level": "省/市级",
+            "text_sim": 0.7143,
+            "level_mod": 0.0,
+            "final_score": 0.7143
+          },
+          {
+            "display_name": "全国大学生电子设计竞赛（北京赛区）",
+            "rule_level": "省/市级",
+            "text_sim": 0.5,
+            "level_mod": 0.0,
+            "final_score": 0.5
+          }
+        ]
+      },
+      "matched_rule": {
+        "display_name": "北京市大学生集成电路设计大赛",
+        "competition_id": "集成电路设计大赛",
+        "competition_name": "集成电路设计大赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "科技竞赛",
+        "level": "市级B",
+        "is_team": true,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 1.0,
+        "match_confidence": "高"
+      },
+      "award_level_raw": "二等奖",
+      "award_level_normalized": "二等",
+      "scoring": {
+        "scoring_type": "matrix_team",
+        "individual_max": 0.7,
+        "team_total": 1.7,
+        "score_range_min": 0.0,
+        "score_range_max": 0.7,
+        "score_fixed": null,
+        "note": null
+      },
+      "summary": "[团队] 北京市大学生集成电路设计大赛 (市级B) · 二等奖 · 团队总分 1.7 · 钟祚栋 排第 2/2 位，可加分区间 [0.0, 0.7]"
+    },
+    {
+      "source_file": "2024年（第17届）中国大学生计算机设计大赛二等奖（团体排名为第4位）.json",
+      "certificate_type": "Competition",
+      "certificate_name": "2024年（第17届）中国大学生计算机设计大赛",
+      "issue_date": "2024-07",
+      "issuing_authority": [
+        "中国大学生计算机设计大赛组织委员会"
+      ],
+      "students_in_cert": [
+        "姜证朗",
+        "张珈豪",
+        "马幸天",
+        "钟祚栋"
+      ],
+      "advisors_in_cert": [
+        "朱红",
+        "张敏"
+      ],
+      "student_name": "钟祚栋",
+      "student_rank_in_team": 4,
+      "total_students_in_cert": 4,
+      "level_detection": {
+        "detected_level": "未知",
+        "keyword_found": "",
+        "candidates_top3": [
+          {
+            "display_name": "中国大学生计算机设计大赛国赛",
+            "rule_level": "国家级",
+            "text_sim": 0.8571,
+            "level_mod": 0.0,
+            "final_score": 0.8571
+          },
+          {
+            "display_name": "中国大学生计算机设计大赛北京市赛",
+            "rule_level": "省/市级",
+            "text_sim": 0.75,
+            "level_mod": 0.0,
+            "final_score": 0.75
+          },
+          {
+            "display_name": "大数据挑战赛",
+            "rule_level": "省/市级",
+            "text_sim": 0.5833,
+            "level_mod": 0.0,
+            "final_score": 0.5833
+          }
+        ]
+      },
+      "matched_rule": {
+        "display_name": "中国大学生计算机设计大赛国赛",
+        "competition_id": "计算机设计大赛",
+        "competition_name": "计算机设计大赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "科技竞赛",
+        "level": "国家级B",
+        "is_team": true,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.8571,
+        "match_confidence": "高"
+      },
+      "award_level_raw": "二等奖",
+      "award_level_normalized": "二等",
+      "scoring": {
+        "scoring_type": "matrix_team",
+        "individual_max": 1.3,
+        "team_total": 3.2,
+        "score_range_min": 0.0,
+        "score_range_max": 0.8,
+        "score_fixed": null,
+        "note": null
+      },
+      "summary": "[团队] 中国大学生计算机设计大赛国赛 (国家级B) · 二等奖 · 团队总分 3.2 · 钟祚栋 排第 4/4 位，可加分区间 [0.0, 0.8]"
+    },
+    {
+      "source_file": "2024睿抗机器人开发者大赛全国总决赛CAIR魔力元宝赛项二等奖（团体排名为第4位）.json",
+      "certificate_type": "Competition",
+      "certificate_name": "2024睿抗机器人开发者大赛（RAICOM）全国总决赛（魔力元宝竞赛项目）",
+      "issue_date": "2024",
+      "issuing_authority": [],
+      "students_in_cert": [
+        "穆嘉贺",
+        "杨兵",
+        "刘毅康",
+        "钟祚栋",
+        "赵梓犀"
+      ],
+      "advisors_in_cert": [
+        "张浩杰",
+        "李擎"
+      ],
+      "student_name": "钟祚栋",
+      "student_rank_in_team": 4,
+      "total_students_in_cert": 5,
+      "level_detection": {
+        "detected_level": "国家级",
+        "keyword_found": "全国总决赛",
+        "candidates_top3": [
+          {
+            "display_name": "睿抗机器人开发者大赛（RAICOM）机器人创新应用仿真设计全国总决赛",
+            "rule_level": "国家级",
+            "text_sim": 0.6667,
+            "level_mod": 0.2,
+            "final_score": 0.8667
+          },
+          {
+            "display_name": "中国机器人及人工智能全国总决赛",
+            "rule_level": "国家级",
+            "text_sim": 0.5333,
+            "level_mod": 0.2,
+            "final_score": 0.7333
+          },
+          {
+            "display_name": "亚太学生机器人大赛国内选拔活动",
+            "rule_level": "国家级",
+            "text_sim": 0.3333,
+            "level_mod": 0.2,
+            "final_score": 0.5333
+          }
+        ]
+      },
+      "matched_rule": {
+        "display_name": "睿抗机器人开发者大赛（RAICOM）机器人创新应用仿真设计全国总决赛",
+        "competition_id": "睿抗机器人开发者大赛",
+        "competition_name": "睿抗机器人开发者大赛（RAICOM）",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "科技竞赛",
+        "level": "国家级B",
+        "is_team": true,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.6667,
+        "match_confidence": "中"
+      },
+      "award_level_raw": "二等奖",
+      "award_level_normalized": "二等",
+      "scoring": {
+        "scoring_type": "matrix_team",
+        "individual_max": 1.3,
+        "team_total": 3.2,
+        "score_range_min": 0.0,
+        "score_range_max": 0.8,
+        "score_fixed": null,
+        "note": null
+      },
+      "summary": "[团队] 睿抗机器人开发者大赛（RAICOM）机器人创新应用仿真设计全国总决赛 (国家级B) · 二等奖 · 团队总分 3.2 · 钟祚栋 排第 4/5 位，可加分区间 [0.0, 0.8]"
+    },
+    {
+      "source_file": "北京科技大学优秀三好学生.json",
+      "certificate_type": "Honorary Title",
+      "certificate_name": "优秀三好学生",
+      "issue_date": "2023",
+      "issuing_authority": [],
+      "students_in_cert": [
+        "钟祚栋"
+      ],
+      "advisors_in_cert": [],
+      "student_name": "钟祚栋",
+      "student_rank_in_team": null,
+      "total_students_in_cert": null,
+      "level_detection": {
+        "detected_level": "未知",
+        "keyword_found": "",
+        "candidates_top3": [
+          {
+            "display_name": "校优秀三好学生",
+            "rule_level": "固定",
+            "text_sim": 0.8571,
+            "level_mod": 0.0,
+            "final_score": 0.8571
+          },
+          {
+            "display_name": "校三好学生",
+            "rule_level": "固定",
+            "text_sim": 0.6667,
+            "level_mod": 0.0,
+            "final_score": 0.6667
+          },
+          {
+            "display_name": "北京市三好学生",
+            "rule_level": "固定",
+            "text_sim": 0.5714,
+            "level_mod": 0.0,
+            "final_score": 0.5714
+          }
+        ]
+      },
+      "matched_rule": {
+        "display_name": "校优秀三好学生",
+        "competition_id": "校优秀三好学生",
+        "competition_name": "校优秀三好学生",
+        "category": "荣誉称号",
+        "subcategory": "三好学生",
+        "level": "固定",
+        "is_team": false,
+        "special_rule": null,
+        "score_cap": 1.0,
+        "match_similarity": 0.8571,
+        "match_confidence": "高"
+      },
+      "award_level_raw": null,
+      "award_level_normalized": null,
+      "scoring": {
+        "scoring_type": "fixed",
+        "individual_max": 0.3,
+        "team_total": null,
+        "score_range_min": null,
+        "score_range_max": null,
+        "score_fixed": 0.3,
+        "note": null
+      },
+      "summary": "[个人] 校优秀三好学生 (固定) · 可加 0.3 分"
+    },
+    {
+      "source_file": "北京科技大学优秀学生干部.json",
+      "certificate_type": "Honorary Title",
+      "certificate_name": "优秀学生干部",
+      "issue_date": "2023-2024",
+      "issuing_authority": [],
+      "students_in_cert": [
+        "钟祚栋"
+      ],
+      "advisors_in_cert": [],
+      "student_name": "钟祚栋",
+      "student_rank_in_team": null,
+      "total_students_in_cert": null,
+      "level_detection": {
+        "detected_level": "未知",
+        "keyword_found": "",
+        "candidates_top3": [
+          {
+            "display_name": "校优秀学生干部",
+            "rule_level": "固定",
+            "text_sim": 0.8571,
+            "level_mod": 0.0,
+            "final_score": 0.8571
+          },
+          {
+            "display_name": "校优秀团干部",
+            "rule_level": "固定",
+            "text_sim": 0.5,
+            "level_mod": 0.0,
+            "final_score": 0.5
+          },
+          {
+            "display_name": "北京地区高校大学生优秀创业团队",
+            "rule_level": "国家级",
+            "text_sim": 0.3333,
+            "level_mod": 0.0,
+            "final_score": 0.3333
+          }
+        ]
+      },
+      "matched_rule": {
+        "display_name": "校优秀学生干部",
+        "competition_id": "校优秀学生干部",
+        "competition_name": "校优秀学生干部",
+        "category": "荣誉称号",
+        "subcategory": "学生干部",
+        "level": "固定",
+        "is_team": false,
+        "special_rule": null,
+        "score_cap": 1.0,
+        "match_similarity": 0.8571,
+        "match_confidence": "高"
+      },
+      "award_level_raw": null,
+      "award_level_normalized": null,
+      "scoring": {
+        "scoring_type": "fixed",
+        "individual_max": 0.3,
+        "team_total": null,
+        "score_range_min": null,
+        "score_range_max": null,
+        "score_fixed": 0.3,
+        "note": null
+      },
+      "summary": "[个人] 校优秀学生干部 (固定) · 可加 0.3 分"
+    },
+    {
+      "source_file": "第三十九届全国部分地区大学生物理竞赛（非物理类A组）三等奖.json",
+      "certificate_type": "Competition",
+      "certificate_name": "第三十九届全国部分地区大学生物理竞赛(非物理类A组)",
+      "issue_date": "2023-12",
+      "issuing_authority": [
+        "北京物理学会"
+      ],
+      "students_in_cert": [
+        "钟祚栋"
+      ],
+      "advisors_in_cert": [],
+      "student_name": "钟祚栋",
+      "student_rank_in_team": null,
+      "total_students_in_cert": null,
+      "level_detection": {
+        "detected_level": "未知",
+        "keyword_found": "",
+        "candidates_top3": [
+          {
+            "display_name": "全国部分地区大学生物理竞赛",
+            "rule_level": "省/市级",
+            "text_sim": 0.7222,
+            "level_mod": 0.0,
+            "final_score": 0.7222
+          },
+          {
+            "display_name": "全国大学生英语竞赛（NECCS）",
+            "rule_level": "国家级",
+            "text_sim": 0.3889,
+            "level_mod": 0.0,
+            "final_score": 0.3889
+          },
+          {
+            "display_name": "全国大学生数学竞赛（决赛）",
+            "rule_level": "国家级",
+            "text_sim": 0.3889,
+            "level_mod": 0.0,
+            "final_score": 0.3889
+          }
+        ]
+      },
+      "matched_rule": {
+        "display_name": "全国部分地区大学生物理竞赛",
+        "competition_id": "大学物理竞赛",
+        "competition_name": "大学物理竞赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "学科竞赛",
+        "level": "市级B",
+        "is_team": false,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.7222,
+        "match_confidence": "高"
+      },
+      "award_level_raw": "三等奖",
+      "award_level_normalized": "三等",
+      "scoring": {
+        "scoring_type": "matrix_individual",
+        "individual_max": 0.6,
+        "team_total": null,
+        "score_range_min": null,
+        "score_range_max": null,
+        "score_fixed": 0.6,
+        "note": null
+      },
+      "summary": "[个人] 全国部分地区大学生物理竞赛 (市级B) · 三等奖 · 可加 0.6 分"
+    },
+    {
+      "source_file": "第十八届iCAN大学生创新创业大赛(北京赛区)一等奖（团体排名为第1位）.json",
+      "certificate_type": "Competition",
+      "certificate_name": "第十八届iCAN大学生创新创业大赛(北京赛区)",
+      "issue_date": "2024",
+      "issuing_authority": [
+        "iCAN大学生创新创业大赛组织委员会"
+      ],
+      "students_in_cert": [
+        "钟祚栋",
+        "姜证朗",
+        "马幸天",
+        "张珈豪",
+        "刘康乾"
+      ],
+      "advisors_in_cert": [
+        "刘志杰",
+        "侯静怡"
+      ],
+      "student_name": "钟祚栋",
+      "student_rank_in_team": 1,
+      "total_students_in_cert": 5,
+      "level_detection": {
+        "detected_level": "省/市级",
+        "keyword_found": "北京赛区",
+        "candidates_top3": [
+          {
+            "display_name": "iCAN国际创新创业大赛北京赛区",
+            "rule_level": "省/市级",
+            "text_sim": 0.6087,
+            "level_mod": 0.2,
+            "final_score": 0.8087
+          },
+          {
+            "display_name": "中国国际互联网+大学生创新创业大赛北京赛区",
+            "rule_level": "省/市级",
+            "text_sim": 0.5652,
+            "level_mod": 0.2,
+            "final_score": 0.7652
+          },
+          {
+            "display_name": "全国大学生统计建模大赛（北京赛区）",
+            "rule_level": "省/市级",
+            "text_sim": 0.3913,
+            "level_mod": 0.2,
+            "final_score": 0.5913
+          }
+        ]
+      },
+      "matched_rule": {
+        "display_name": "iCAN国际创新创业大赛北京赛区",
+        "competition_id": "iCAN",
+        "competition_name": "iCAN国际创新创业大赛",
+        "category": "学科竞赛、科技竞赛、创新创业竞赛",
+        "subcategory": "双创、论文、专利",
+        "level": "市级B",
+        "is_team": true,
+        "special_rule": null,
+        "score_cap": null,
+        "match_similarity": 0.6087,
+        "match_confidence": "中"
+      },
+      "award_level_raw": "一等奖",
+      "award_level_normalized": "一等",
+      "scoring": {
+        "scoring_type": "matrix_team",
+        "individual_max": 0.8,
+        "team_total": 2.0,
+        "score_range_min": 0.0,
+        "score_range_max": 0.8,
+        "score_fixed": null,
+        "note": null
+      },
+      "summary": "[团队] iCAN国际创新创业大赛北京赛区 (市级B) · 一等奖 · 团队总分 2.0 · 钟祚栋 排第 1/5 位，可加分区间 [0.0, 0.8]"
+    }
+  ],
+  "global_rules_reminder": [
+    "加分必须查看获奖证书原件并上交复印件及保研加分申请表",
+    "拟获奖项不能加分",
+    "同年度同类别不同级别奖项按最高级加分",
+    "同一个科技作品获得两个不同奖项，只加最高分",
+    "亚广联大学生机器人大赛ABU RoboCon、机甲大师-超级对抗赛、RoboCup国赛为团队比赛但颁发个人证书，由团队指导教师给出自动化学院成员贡献排名，以自动化学院成员为团队参照scoring_matrix进行加分",
+    "论文、专利、软著需署名北京科技大学，且作者前10名（作者中首位教师不参与排名）可以加分，加分参照scoring_matrix；原则上不认定署名非北京科技大学或北京科技大学顺德创新学院（研究生院）的论文、专利、软著",
+    "艺术类加分最高累加不超过1分；荣誉称号类加分最高累加不超过1分",
+    "应征入伍类取相应奖项级别最高分加分",
+    "证书有效期及加分截止时间根据实际保研加分工作进度设置，具体解释权归学院学术委员会所有"
+  ]
+}

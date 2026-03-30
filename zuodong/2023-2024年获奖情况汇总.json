@@ -1,0 +1,146 @@
+{
+    "student_name": "钟祚栋",
+    "awards": [
+        {
+            "award_category": "荣誉称号",
+            "award_name": "校优秀三好学生",
+            "year": 2023,
+            "level": "校级 A 类",
+            "grade": "无",
+            "is_team": false,
+            "team_rank": null,
+            "bonus_points": 0.3,
+            "members": []
+        },
+        {
+            "award_category": "荣誉称号",
+            "award_name": "校优秀学生干部",
+            "year": 2024,
+            "level": "校级 A 类",
+            "grade": "无",
+            "is_team": false,
+            "team_rank": null,
+            "bonus_points": 0.3,
+            "members": []
+        },
+        {
+            "award_category": "科技竞赛",
+            "award_name": "2024 年（第 17 届）中国大学生计算机设计大赛",
+            "year": 2024,
+            "level": "国家级B类",
+            "grade": "二等奖",
+            "is_team": true,
+            "team_rank": 4,
+            "members": [
+                {
+                    "name": "姜证朗",
+                    "points": 0.8
+                },
+                {
+                    "name": "张珈豪",
+                    "points": 0.8
+                },
+                {
+                    "name": "马幸天",
+                    "points": 0.8
+                },
+                {
+                    "name": "钟祚栋",
+                    "points": 0.8
+                }
+            ]
+        },
+        {
+            "award_category": "科技竞赛",
+            "award_name": "“2024 睿抗机器人开发者大赛(RAICOM)全国总决赛“魔力元宝竞赛项目",
+            "year": 2024,
+            "level": "国家级B类",
+            "grade": "二等奖",
+            "is_team": true,
+            "team_rank": 4,
+            "members": [
+                {
+                    "name": "穆嘉贺",
+                    "points": 1.3
+                },
+                {
+                    "name": "杨兵",
+                    "points": 0.6
+                },
+                {
+                    "name": "刘毅康",
+                    "points": 0.6
+                },
+                {
+                    "name": "钟祚栋",
+                    "points": 0.6
+                },
+                {
+                    "name": "赵梓犀",
+                    "points": 0.1
+                }
+            ]
+        },
+        {
+            "award_category": "学科竞赛",
+            "award_name": "第三十九届全国部分地区大学生物理竞赛（非物理类 A 组）",
+            "year": 2023,
+            "level": "市级 B 类",
+            "grade": "三等奖",
+            "is_team": false,
+            "team_rank": null,
+            "bonus_points": 0.6,
+            "members": []
+        },
+        {
+            "award_category": "双创",
+            "award_name": "第 18 届 iCAN 大学生创新创业大赛（北京赛区）",
+            "year": 2024,
+            "level": "市级 B 类",
+            "grade": "一等奖",
+            "is_team": true,
+            "team_rank": 1,
+            "members": [
+                {
+                    "name": "钟祚栋",
+                    "points": 0.4
+                },
+                {
+                    "name": "姜证朗",
+                    "points": 0.4
+                },
+                {
+                    "name": "马幸天",
+                    "points": 0.4
+                },
+                {
+                    "name": "张珈豪",
+                    "points": 0.4
+                },
+                {
+                    "name": "刘康乾",
+                    "points": 0.4
+                }
+            ]
+        },
+        {
+            "award_category": "科技竞赛",
+            "award_name": "2024 年北京市大学生集成电路设计大赛数字组",
+            "year": 2024,
+            "level": "市级 B 类",
+            "grade": "二等奖",
+            "is_team": true,
+            "team_rank": 2,
+            "members": [
+                {
+                    "name": "叶钟宏",
+                    "points": 0.7
+                },
+                {
+                    "name": "钟祚栋",
+                    "points": 0.7
+                }
+            ]
+        }
+    ]
+}
